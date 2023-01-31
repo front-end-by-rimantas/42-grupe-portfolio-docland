@@ -9,5 +9,13 @@
 /* header: start */
 /* header: end */
 
+/* timer: start */
+.timer {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+/* timer: end */
+
 /* footer: start */
 /* footer: end */
