@@ -1,0 +1,27 @@
+.btn {
+    font-family: 'Hind', sans-serif;
+    background: #FBC006;
+    padding: 15px 33px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+/* .btn.btn-circle {
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    padding: 0;
+    line-height: 2em;
+} */
+
+
