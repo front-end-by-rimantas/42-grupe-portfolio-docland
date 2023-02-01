@@ -1,13 +1,47 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
+@import '../components/button.css';
+
 /* 3rd-party */
+
 /* components */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@200&display=swap');
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
 /* header: start */
 /* header: end */
+
+/* heros: start */
+/* heros: end */
+
+/* timer: start */
+/* timer: end */
+
+/* clock: start */
+/* clock: end */
+
+/* course: start */
+/* course: end */
+
+/* course syllabus: start */
+/* course syllabus: end */
+
+/* course benefit: start */
+/* course benefit: end */
+
+/* prices: start */
+/* prices: end */
+
+/* students review: start */
+/* students review: end */
+
+/* email form: start */
+/* email form: end */
+
+/* instructor: start */
+/* instructor: end */
 
 /* footer: start */
 /* footer: end */
