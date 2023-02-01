@@ -10,11 +10,14 @@
 /* header: end */
 
 /* heros: start */
-.col-6 > .right {
+
+.container > .row > .col-6 > {
     float: left; 
+    text-align: center;
 }
-.col-6 > .left {
+.container > .row >.col-6 >{
     float: right;
+    margin: 0;
 }
 /* heros: end */
 
