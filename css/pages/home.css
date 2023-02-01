@@ -10,6 +10,12 @@
 /* header: end */
 
 /* heros: start */
+.col-6 > .right {
+    float: left; 
+}
+.col-6 > .left {
+    float: right;
+}
 /* heros: end */
 
 /* timer: start */
