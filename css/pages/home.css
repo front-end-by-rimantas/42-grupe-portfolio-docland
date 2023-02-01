@@ -18,6 +18,20 @@
 /* heros: end */
 
 /* timer: start */
+.timer {
+  text-align: center;
+}
+.timer-h3 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.timer-p {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: capitalize;
+  color:#5c6b56;
+}
 /* timer: end */
 
 /* clock: start */
