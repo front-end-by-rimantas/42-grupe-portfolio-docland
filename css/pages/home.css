@@ -50,12 +50,10 @@
 
 /* course: start */
 
-
-
-
 .course {
     display: block;
     position: relative;
+  
 } 
 .carousel-elmt {
   height: 400px; 
@@ -63,16 +61,20 @@
   margin-bottom: 0px;
   text-align: center;
   padding: 40px 0px;
-  background: #85CFFF;
   border-radius: 20px; 
   float: left;
+  margin-left: 20px;
+}
+
+.carousel-elmt:hover {
+  box-shadow: cadetblue;
 }
 
 .carousel-elmt:nth-of-type(2) {
-  background: #91D4FF;
+  background: #85CFFF;
 }
 .carousel-elmt:nth-of-type(3) {
-  background: #C999FF;
+  background: #BF87FF;
 }
 .carousel-elmt:nth-of-type(4) {
   background: #FFCB87;
