@@ -49,6 +49,52 @@
 /* clock: end */
 
 /* course: start */
+
+
+
+
+.course {
+    display: inline-block;
+    position: relative;
+} 
+.carousel-elmt {
+  margin-top: 40px;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 0px;
+  height: 300px;
+  width: 23%;   
+  background: #85CFFF;
+  border-radius: 6px; 
+}
+.course * .btn {
+  background: #C9FFF5;
+  color: #5DD9C1;
+}
+.btn:nth-of-type(1) {
+  position: absolute;
+  top: 0px;
+  right: 100px;
+}
+.btn:nth-of-type(2) {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+.elmt-img {
+   width: 20%;
+} 
+.elmt-text {
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 3em;
+  padding: 30px 0px;
+  color: #fff;
+}  
+
+
+
 /* course: end */
 
 /* course syllabus: start */
