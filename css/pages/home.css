@@ -54,43 +54,59 @@
 
 
 .course {
-    display: inline-block;
+    display: block;
     position: relative;
 } 
 .carousel-elmt {
-  margin-top: 40px;
-  display: inline-block;
+  height: 400px; 
+  margin-top: 30px;
+  margin-bottom: 0px;
   text-align: center;
-  padding: 20px 0px;
-  height: 300px;
-  width: 23%;   
+  padding: 40px 0px;
   background: #85CFFF;
-  border-radius: 6px; 
+  border-radius: 20px; 
+  float: left;
 }
+
+.carousel-elmt:nth-of-type(2) {
+  background: #91D4FF;
+}
+.carousel-elmt:nth-of-type(3) {
+  background: #C999FF;
+}
+.carousel-elmt:nth-of-type(4) {
+  background: #FFCB87;
+}
+
+.carousel-elmt:nth-of-type(5) {
+  background: #929DFF;
+}
+  
+
 .course * .btn {
   background: #C9FFF5;
   color: #5DD9C1;
 }
 .btn:nth-of-type(1) {
   position: absolute;
-  top: 0px;
+  top: 40px;
   right: 100px;
 }
 .btn:nth-of-type(2) {
   position: absolute;
-  top: 0px;
+  top: 40px;
   right: 5px;
 }
 .elmt-img {
-   width: 20%;
+   width: 90%;
 } 
 .elmt-text {
-  padding: 20px;
-  text-decoration: none;
-  font-weight: bold;
-  line-height: 3em;
-  padding: 30px 0px;
   color: #fff;
+  font: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 3em;
+  
 }  
 
 
