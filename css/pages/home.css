@@ -9,19 +9,5 @@
 /* header: start */
 /* header: end */
 
-/* clock: start */
-.clock {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
-}
-.time {
-  display: flex;
-}
-
-/* clock: end */
-
 /* footer: start */
 /* footer: end */
