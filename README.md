@@ -72,7 +72,8 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Rimantas: [Github](https://github.com/belauzas);
+Valerij: [Github] (https://github.com/valerij79);
 
 ## ⚠️ License
 
