@@ -53,7 +53,6 @@
 .course {
     display: block;
     position: relative;
-  
 } 
 .carousel-elmt {
   height: 400px; 
@@ -65,11 +64,9 @@
   float: left;
   margin-left: 20px;
 }
-
 .carousel-elmt:hover {
   box-shadow: cadetblue;
 }
-
 .carousel-elmt:nth-of-type(2) {
   background: #85CFFF;
 }
@@ -79,12 +76,9 @@
 .carousel-elmt:nth-of-type(4) {
   background: #FFCB87;
 }
-
 .carousel-elmt:nth-of-type(5) {
   background: #929DFF;
 }
-  
-
 .course * .btn {
   background: #C9FFF5;
   color: #5DD9C1;
