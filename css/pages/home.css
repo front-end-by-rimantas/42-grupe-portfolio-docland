@@ -1,8 +1,12 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
+@import '../components/button.css';
+
 /* 3rd-party */
+
 /* components */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@200&display=swap');
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
