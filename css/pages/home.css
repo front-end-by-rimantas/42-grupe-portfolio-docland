@@ -7,6 +7,7 @@
 
 /* components */
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@200&display=swap');
+@import '../components/clock.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
@@ -20,6 +21,11 @@
 /* timer: end */
 
 /* clock: start */
+
+.clock-container{
+  
+}
+
 /* clock: end */
 
 /* course: start */
