@@ -5,6 +5,10 @@
 
 /* 3rd-party */
 
+@import '../3rd-party/font-awesome.min.css';
+
+
+
 /* components */
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@200&display=swap');
 
@@ -14,6 +18,14 @@
 /* header: end */
 
 /* heros: start */
+
+.container > .row > .col-6 > {
+    float: left; 
+    text-align: center;
+}
+.container > .row >.col-6 >{
+    float: right;
+}
 /* heros: end */
 
 /* timer: start */
