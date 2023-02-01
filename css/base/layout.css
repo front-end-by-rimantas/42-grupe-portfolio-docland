@@ -33,7 +33,7 @@
   width: 100%;
   padding: 60px 0;
   float: left;
-  background-color: pink;
+  /* background-color: pink; */
 }
 .container > .row {
   width: 100%;
@@ -43,7 +43,7 @@
 
 .container > .row > [class*='col-'] {
   float: left;
-  background-color: aqua;
+  /* background-color: aqua; */
   margin: var(--half-gap);
 }
 .container > .row > .col-1 {
