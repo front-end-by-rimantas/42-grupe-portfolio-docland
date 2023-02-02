@@ -1,17 +1,15 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
-@import '../components/button.css';
 
 /* 3rd-party */
 
 @import '../3rd-party/font-awesome.min.css';
 
-
-
 /* components */
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@200&display=swap');
 @import '../components/clock.css';
+@import '../components/button.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
