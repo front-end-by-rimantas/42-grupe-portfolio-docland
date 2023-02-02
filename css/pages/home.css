@@ -11,6 +11,7 @@
 
 /* components */
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@200&display=swap');
+@import '../components/clock.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
@@ -70,6 +71,26 @@
 /* timer: end */
 
 /* clock: start */
+
+.close-in{
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  background-color: #c9fff5;
+  color: #5dd9c1;
+  position: absolute;
+  left: 45%;
+  top:10%
+}
+
+.clock-cont {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+
 /* clock: end */
 
 /* course: start */
