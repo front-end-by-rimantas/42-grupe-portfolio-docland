@@ -1,15 +1,56 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
+@import '../components/button.css';
+
 /* 3rd-party */
+
+@import '../3rd-party/font-awesome.min.css';
+
+
+
 /* components */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@200&display=swap');
+@import '../components/clock.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
 /* header: start */
+.header {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px; 
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.header-anchor {
+    display: flex;
+    gap: 20px;
+}
+
+.header-btns {
+    display: flex;
+    gap: 30px;
+}
 /* header: end */
 
 /* heros: start */
+
+.container > .row > .col-6 > {
+    float: left; 
+    text-align: center;
+}
+.container > .row >.col-6 >{
+    float: right;
+}
 /* heros: end */
 
 /* timer: start */
@@ -30,9 +71,87 @@
 /* timer: end */
 
 /* clock: start */
+
+.close-in{
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  background-color: #c9fff5;
+  color: #5dd9c1;
+  position: absolute;
+  left: 45%;
+  top:10%
+}
+
+.clock-cont {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+
 /* clock: end */
 
 /* course: start */
+
+.course {
+    position: relative;
+} 
+.carousel-elmt { 
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 40px 0px;
+  border-radius: 20px; 
+  /* float: left; */
+}
+.elmt-img {
+   width: 90%;
+} 
+.elmt-text {
+  color: #fff;
+  font: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 3em;
+}  
+.carousel-elmt:hover {
+  box-shadow: cadetblue;
+}
+.carousel-elmt:nth-of-type(1) {
+  background: #85CFFF;
+}
+.carousel-elmt:nth-of-type(2) {
+  background: #BF87FF;
+}
+.carousel-elmt:nth-of-type(3) {
+  background: #FFCB87;
+}
+.carousel-elmt:nth-of-type(4) {
+  background: #929DFF;
+}
+.course * .btn {
+  background: #C9FFF5;
+
+  text-decoration: none;
+}
+.btn > .fa {
+  color: #5DD9C1;
+  text-decoration: none;
+}
+.btn:nth-of-type(1) {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+.btn:nth-of-type(2) {
+  position: absolute;
+  top: 50px;
+  right: 5px;
+}
+
+
 /* course: end */
 
 /* course syllabus: start */
