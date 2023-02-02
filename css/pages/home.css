@@ -112,7 +112,12 @@
 }
 .course * .btn {
   background: #C9FFF5;
+
+  text-decoration: none;
+}
+.btn > .fa {
   color: #5DD9C1;
+  text-decoration: none;
 }
 .btn:nth-of-type(1) {
   position: absolute;
