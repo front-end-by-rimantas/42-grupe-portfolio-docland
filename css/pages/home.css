@@ -161,6 +161,14 @@
 /* course benefit: end */
 
 /* prices: start */
+
+.pricing-box {
+  padding: 30px 30px 40px;
+  border-radius: 20px;
+  box-shadow: #5c6b56;
+  background-color: #FFCB87;
+}
+
 /* prices: end */
 
 /* students review: start */
