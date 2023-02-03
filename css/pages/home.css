@@ -156,6 +156,38 @@
 /* course syllabus: end */
 
 /* course benefit: start */
+
+.benefit-btn {
+  float: right;
+  margin-right: 20px;
+}
+.stil {
+  text-decoration: none;
+}
+.fa {
+  color: #5DD9C1;
+  font-size: 25px;
+}
+
+.butn {
+  margin-right: 20px;
+  font-family: 'Hind', sans-serif;
+  background: #C9FFF5;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
 /* course benefit: end */
 
 /* prices: start */
