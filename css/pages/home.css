@@ -275,6 +275,53 @@
 /* students review: end */
 
 /* email form: start */
+.email-form {
+  display: flex;
+  height: 450px;
+  background-color: #5dd9c1;
+  border-radius: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.email-txt {
+  margin-left: 12%;
+  margin-right: 12%;
+  font-size: 40px;
+  line-height: 1.2em;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.email-box {
+  height: 60px;
+  width: 600px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color:#fff;
+  font-size: 20px;
+  
+}
+.abs {
+  position: relative;
+}
+::placeholder {
+  font-size: 18px;
+  color: #fff;
+}
+.email-svg {
+  border: none;
+  background-color: #5DD9C1;
+  position: absolute;
+  right: 0;
+  bottom: 25px;
+}
+.fa-long-arrow-right {
+  color: #fff;
+}
 /* email form: end */
 
 /* instructor: start */
