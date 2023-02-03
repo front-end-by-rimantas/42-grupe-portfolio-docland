@@ -1,17 +1,15 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
-@import '../components/button.css';
 
 /* 3rd-party */
 
 @import '../3rd-party/font-awesome.min.css';
 
-
-
 /* components */
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@200&display=swap');
 @import '../components/clock.css';
+@import '../components/button.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
@@ -96,47 +94,15 @@
 /* course: start */
 
 .course {
-    display: block;
     position: relative;
 } 
-.carousel-elmt {
-  height: 400px; 
+.carousel-elmt { 
   margin-top: 30px;
   margin-bottom: 0px;
   text-align: center;
   padding: 40px 0px;
   border-radius: 20px; 
-  float: left;
-  margin-left: 20px;
-}
-.carousel-elmt:hover {
-  box-shadow: cadetblue;
-}
-.carousel-elmt:nth-of-type(2) {
-  background: #85CFFF;
-}
-.carousel-elmt:nth-of-type(3) {
-  background: #BF87FF;
-}
-.carousel-elmt:nth-of-type(4) {
-  background: #FFCB87;
-}
-.carousel-elmt:nth-of-type(5) {
-  background: #929DFF;
-}
-.course * .btn {
-  background: #C9FFF5;
-  color: #5DD9C1;
-}
-.btn:nth-of-type(1) {
-  position: absolute;
-  top: 40px;
-  right: 100px;
-}
-.btn:nth-of-type(2) {
-  position: absolute;
-  top: 40px;
-  right: 5px;
+  /* float: left; */
 }
 .elmt-img {
    width: 90%;
@@ -148,6 +114,41 @@
   text-decoration: none;
   line-height: 3em;
 }  
+.carousel-elmt:hover {
+  box-shadow: cadetblue;
+}
+.carousel-elmt:nth-of-type(1) {
+  background: #85CFFF;
+}
+.carousel-elmt:nth-of-type(2) {
+  background: #BF87FF;
+}
+.carousel-elmt:nth-of-type(3) {
+  background: #FFCB87;
+}
+.carousel-elmt:nth-of-type(4) {
+  background: #929DFF;
+}
+.course * .btn {
+  background: #C9FFF5;
+
+  text-decoration: none;
+}
+.btn > .fa {
+  color: #5DD9C1;
+  text-decoration: none;
+}
+.btn:nth-of-type(1) {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+.btn:nth-of-type(2) {
+  position: absolute;
+  top: 50px;
+  right: 5px;
+}
+
 
 /* course: end */
 
@@ -158,9 +159,53 @@
 /* course benefit: end */
 
 /* prices: start */
+
+.pricing-box {
+  padding: 30px 30px 40px;
+  border-radius: 20px;
+  box-shadow: #5c6b56;
+  background-color: #FFCB87;
+}
+
 /* prices: end */
 
 /* students review: start */
+.stud-review {
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  background-color: #ffff;
+  box-shadow: 5px 5px 30px #9d9c9c;
+}
+.studens-profile {
+  display: flex;
+  margin-bottom: 20px;
+}
+.name-review{
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.students-review {
+  font-size: 20px;
+  line-height: 1.5em;
+  font-weight: lighter;
+  color: #707070;
+}
+.fa-star,
+.fa-star-half-o{
+  color: #fcbf21;
+}
+.student-name{
+  font-size: 18px;
+  line-height: 2em;
+  font-weight: 600;
+  color: #5f52dc;
+}
+
+
 /* students review: end */
 
 /* email form: start */
