@@ -195,7 +195,8 @@
 .benefit-box-text {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  justify-content: center;
+  gap: 8px;
   padding-left: 15px;
 }
 
@@ -204,7 +205,7 @@
 }
 
 .title {
-  font-size: 20px;
+  font-size: 19px;
 
 }
 
