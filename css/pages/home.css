@@ -256,8 +256,7 @@
   box-sizing: border-box;
   box-shadow: 0px 8px 16px #9d9c9c;
   line-height: 1.78;
-  /* position: relative; */
-
+  font-size: 16px;
 }
 .prices * span {
   font-size: 60px;
@@ -273,9 +272,15 @@
   background-color: #5DD9C1;
   color: #fff;
 }
-.price-btn {
-  position: unset;
+.price-btn-2 {
+  background: #fff;
+  color: #5DD9C1;
 }
+.price-btn-2:hover {
+  background: #FBC006;
+  color: #fff;
+}
+
 
 
 /* prices: end */
