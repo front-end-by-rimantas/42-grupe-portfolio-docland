@@ -1,16 +1,15 @@
 /* base */
 @import '../base/base.css';
 @import '../base/layout.css';
-@import '../components/button.css';
 
 /* 3rd-party */
 
 @import '../3rd-party/font-awesome.min.css';
 
-
-
 /* components */
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@200&display=swap');
+@import '../components/clock.css';
+@import '../components/button.css';
 
 /* CUSTOM STYLE BELOW THIS COMMENT LINE */
 
@@ -70,6 +69,26 @@
 /* timer: end */
 
 /* clock: start */
+
+.close-in{
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  background-color: #c9fff5;
+  color: #5dd9c1;
+  position: absolute;
+  left: 45%;
+  top:10%
+}
+
+.clock-cont {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+
 /* clock: end */
 
 /* course: start */
@@ -137,6 +156,14 @@
 /* course benefit: end */
 
 /* prices: start */
+
+.pricing-box {
+  padding: 30px 30px 40px;
+  border-radius: 20px;
+  box-shadow: #5c6b56;
+  background-color: #FFCB87;
+}
+
 /* prices: end */
 
 /* students review: start */
