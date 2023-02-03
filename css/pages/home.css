@@ -237,7 +237,41 @@
   color: #5f52dc;
 }
 
-
+.rating {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.av {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 25px;
+}
+.view-number {
+  font-size: 60px;
+  color: #fcbf21;
+}
+.stud-view {
+  font-size: 60px;
+  color: #5dd9c1;
+}
+.count-name {
+  font-size: 20px;
+  line-height: 1.9em;
+  color: #5c6b56;
+}
+.reviews {
+  text-align: center;
+}
+.link-reviews {
+  font-size: 18px;
+  
+  padding: 15px 35px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #5dd9c1;
+  border-radius: 5px;
+}
 /* students review: end */
 
 /* email form: start */
