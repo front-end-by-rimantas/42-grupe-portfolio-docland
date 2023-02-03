@@ -170,6 +170,42 @@
 /* prices: end */
 
 /* students review: start */
+.stud-review {
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  background-color: #ffff;
+  box-shadow: 5px 5px 30px #9d9c9c;
+}
+.studens-profile {
+  display: flex;
+  margin-bottom: 20px;
+}
+.name-review{
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.students-review {
+  font-size: 20px;
+  line-height: 1.5em;
+  font-weight: lighter;
+  color: #707070;
+}
+.fa-star,
+.fa-star-half-o{
+  color: #fcbf21;
+}
+.student-name{
+  font-size: 18px;
+  line-height: 2em;
+  font-weight: 600;
+  color: #5f52dc;
+}
+
+
 /* students review: end */
 
 /* email form: start */
