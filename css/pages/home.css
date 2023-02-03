@@ -15,62 +15,68 @@
 
 /* header: start */
 .header {
-    display: flex;
-    gap: 150px;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px; 
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header-menu {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .header-anchor {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .header-btns {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
+
 /* header: end */
 
 /* heros: start */
 
-.container > .row > .col-6 > {
-    float: left; 
-    text-align: center;
+.container>.row>.col-6> {
+  float: left;
+  text-align: center;
 }
-.container > .row >.col-6 >{
-    float: right;
+
+.container>.row>.col-6> {
+  float: right;
 }
+
 /* heros: end */
 
 /* timer: start */
 .timer {
   text-align: center;
 }
+
 .timer-h3 {
   font-size: 28px;
   font-weight: 500;
   margin-bottom: 15px;
 }
+
 .timer-p {
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize;
-  color:#5c6b56;
+  color: #5c6b56;
 }
+
 /* timer: end */
 
 /* clock: start */
 
-.close-in{
+.close-in {
   font-weight: bold;
   font-size: 18px;
   padding: 10px 15px;
@@ -80,7 +86,7 @@
   color: #5dd9c1;
   position: absolute;
   left: 45%;
-  top:10%
+  top: 10%
 }
 
 .clock-cont {
@@ -136,9 +142,11 @@
   top: 40px;
   right: 5px;
 }
+
 .elmt-img {
-   width: 90%;
-} 
+  width: 90%;
+}
+
 .elmt-text {
   color: #fff;
   font: 24px;
@@ -227,13 +235,48 @@
 
 /* course benefit: start */
 
+.benefit-box {
+  width: 360px;
+  height: 130px;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  border: 1px solid #D7EFF9;
+  background: linear-gradient(to right, #D7EFF9 0%, #D7EFF9 25%, #fff 25%, #fff 100%);
+}
+
+.benefit-svg {
+  display: flex;
+  align-items: center;
+  background-color: #D7EFF9;
+}
+
+.benefit-box-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 15px;
+}
+
+.benefit-box-text>p {
+  font-size: 15px;
+}
+
+.title {
+  font-size: 20px;
+
+}
+
 .benefit-btn {
   float: right;
   margin-right: 20px;
 }
+
 .stil {
   text-decoration: none;
 }
+
 .fa {
   color: #5DD9C1;
   font-size: 25px;
@@ -246,7 +289,7 @@
   padding: 10px 20px;
   border: 1px solid transparent;
   text-decoration: none;
-  
+
   font-size: 18px;
   font-weight: 500;
   line-height: 1em;
@@ -280,27 +323,32 @@
   background-color: #ffff;
   box-shadow: 5px 5px 30px #9d9c9c;
 }
+
 .studens-profile {
   display: flex;
   margin-bottom: 20px;
 }
-.name-review{
+
+.name-review {
   margin-left: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .students-review {
   font-size: 20px;
   line-height: 1.5em;
   font-weight: lighter;
   color: #707070;
 }
+
 .fa-star,
-.fa-star-half-o{
+.fa-star-half-o {
   color: #fcbf21;
 }
-.student-name{
+
+.student-name {
   font-size: 18px;
   line-height: 2em;
   font-weight: 600;
@@ -345,6 +393,53 @@
 /* students review: end */
 
 /* email form: start */
+.email-form {
+  display: flex;
+  height: 450px;
+  background-color: #5dd9c1;
+  border-radius: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.email-txt {
+  margin-left: 12%;
+  margin-right: 12%;
+  font-size: 40px;
+  line-height: 1.2em;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.email-box {
+  height: 60px;
+  width: 600px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color:#fff;
+  font-size: 20px;
+  
+}
+.abs {
+  position: relative;
+}
+::placeholder {
+  font-size: 18px;
+  color: #fff;
+}
+.email-svg {
+  border: none;
+  background-color: #5DD9C1;
+  position: absolute;
+  right: 0;
+  bottom: 25px;
+}
+.fa-long-arrow-right {
+  color: #fff;
+}
 /* email form: end */
 
 /* instructor: start */
