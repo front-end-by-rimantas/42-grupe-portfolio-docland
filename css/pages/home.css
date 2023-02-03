@@ -100,47 +100,16 @@
 /* course: start */
 
 .course {
-    display: block;
-    position: relative;
-} 
+  position: relative;
+}
+
 .carousel-elmt {
-  height: 400px; 
   margin-top: 30px;
   margin-bottom: 0px;
   text-align: center;
   padding: 40px 0px;
-  border-radius: 20px; 
-  float: left;
-  margin-left: 20px;
-}
-.carousel-elmt:hover {
-  box-shadow: cadetblue;
-}
-.carousel-elmt:nth-of-type(2) {
-  background: #85CFFF;
-}
-.carousel-elmt:nth-of-type(3) {
-  background: #BF87FF;
-}
-.carousel-elmt:nth-of-type(4) {
-  background: #FFCB87;
-}
-.carousel-elmt:nth-of-type(5) {
-  background: #929DFF;
-}
-.course * .btn {
-  background: #C9FFF5;
-  color: #5DD9C1;
-}
-.btn:nth-of-type(1) {
-  position: absolute;
-  top: 40px;
-  right: 100px;
-}
-.btn:nth-of-type(2) {
-  position: absolute;
-  top: 40px;
-  right: 5px;
+  border-radius: 20px;
+  /* float: left; */
 }
 
 .elmt-img {
@@ -153,7 +122,51 @@
   font-weight: bold;
   text-decoration: none;
   line-height: 3em;
-}  
+}
+
+.carousel-elmt:hover {
+  box-shadow: cadetblue;
+}
+
+.carousel-elmt:nth-of-type(1) {
+  background: #85CFFF;
+}
+
+.carousel-elmt:nth-of-type(2) {
+  background: #BF87FF;
+}
+
+.carousel-elmt:nth-of-type(3) {
+  background: #FFCB87;
+}
+
+.carousel-elmt:nth-of-type(4) {
+  background: #929DFF;
+}
+
+.course * .btn {
+  background: #C9FFF5;
+
+  text-decoration: none;
+}
+
+.btn>.fa {
+  color: #5DD9C1;
+  text-decoration: none;
+}
+
+.course-btn-1 {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+
+.course-btn-2  {
+  position: absolute;
+  top: 50px;
+  right: 5px;
+}
+
 
 /* course: end */
 
@@ -162,8 +175,9 @@
 .firsthone {
   margin: 0;
   padding: 0;
+  display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items:center;
   margin-bottom: 20px;
   padding: 50px;
   color: #343a40;
@@ -214,8 +228,6 @@
   margin-right: 20px;
   line-height: 1.7em;
   font-weight: 300;
-  
-  
   }
 .span {
   font-size: 18px;
@@ -227,7 +239,11 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   vertical-align: top;
   }
-
+.syllabusbtn {
+  text-align: right;
+  display: flex;
+  
+}
 
 
 
