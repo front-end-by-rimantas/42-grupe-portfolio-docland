@@ -2,6 +2,7 @@
 @import '../base/base.css';
 @import '../base/layout.css';
 
+
 /* 3rd-party */
 
 @import '../3rd-party/font-awesome.min.css';
@@ -166,8 +167,6 @@
   top: 50px;
   right: 5px;
 }
-
-
 /* course: end */
 
 /* course syllabus: start */
@@ -251,7 +250,12 @@
 
 /* course benefit: start */
 
+.main-title-row {
+  height: 60px;
+}
+
 .benefit-box {
+
   width: 360px;
   height: 130px;
   display: flex;
@@ -262,16 +266,29 @@
   background: linear-gradient(to right, #D7EFF9 0%, #D7EFF9 25%, #fff 25%, #fff 100%);
 }
 
+.no2 {
+  background: linear-gradient(to right, #E9E6FF 0%, #E9E6FF 25%, #fff 25%, #fff 100%);
+}
+
+.no3 {
+  background: linear-gradient(to right, #FFF6DB 0%, #FFF6DB 25%, #fff 25%, #fff 100%);
+}
+
+.no4 {
+  background: linear-gradient(to right, #E6FFFA 0%, #E6FFFA 25%, #fff 25%, #fff 100%);
+}
+
 .benefit-svg {
   display: flex;
   align-items: center;
-  background-color: #D7EFF9;
+
 }
 
 .benefit-box-text {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  justify-content: center;
+  gap: 8px;
   padding-left: 15px;
 }
 
@@ -280,7 +297,7 @@
 }
 
 .title {
-  font-size: 20px;
+  font-size: 19px;
 
 }
 
@@ -321,12 +338,45 @@
 
 /* prices: start */
 
+.prices * h1 {
+  text-align: center;
+}
+
 .pricing-box {
+  font-family: 'Hind', sans-serif;
   padding: 30px 30px 40px;
   border-radius: 20px;
   box-shadow: #5c6b56;
-  background-color: #FFCB87;
+  margin-top: 30px;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 16px #9d9c9c;
+  line-height: 1.78;
+  font-size: 16px;
 }
+.prices * span {
+  font-size: 60px;
+  display: inline;
+}
+
+.pricing-box:nth-of-type(1) {
+  background-color: #fff;
+  color: #000;
+ 
+}
+.pricing-box:nth-of-type(2) {
+  background-color: #5DD9C1;
+  color: #fff;
+}
+.price-btn-2 {
+  background: #fff;
+  color: #5DD9C1;
+}
+.price-btn-2:hover {
+  background: #FBC006;
+  color: #fff;
+}
+
+
 
 /* prices: end */
 
@@ -376,36 +426,43 @@
   justify-content: center;
   text-align: center;
 }
+
 .av {
   padding-left: 40px;
   padding-right: 40px;
   margin-bottom: 25px;
 }
+
 .view-number {
   font-size: 60px;
   color: #fcbf21;
 }
+
 .stud-view {
   font-size: 60px;
   color: #5dd9c1;
 }
+
 .count-name {
   font-size: 20px;
   line-height: 1.9em;
   color: #5c6b56;
 }
+
 .reviews {
   text-align: center;
 }
+
 .link-reviews {
   font-size: 18px;
-  
+
   padding: 15px 35px;
   text-decoration: none;
   color: #fff;
   background-color: #5dd9c1;
   border-radius: 5px;
 }
+
 /* students review: end */
 
 /* email form: start */
