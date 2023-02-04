@@ -37,31 +37,37 @@
 }
 
 .header-login-btn {
-  font-size: 16px;
+  font-size: 15px;
   text-decoration: none;
 }
 
 .header-join-btn {
-  width: 140px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 130px;
   height: 40px;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
+  justify-content: center;
   color: white;
-  padding: 10px 20px 10px 20px;
+  padding: 16px 16px 16px 16px;
   border-radius: 5px;
-
   background-color: #5DD9C1;
 }
 
-.login-underline::before {
-  position: absolute;
-  color: #000;
+.header-join-btn:hover {
+  background-color: #FBC117;
+
+  transition: 0.5s;
+}
+
+.login-underline::after {
+  display: block;
+  background-color: #FBC117;
   content: '';
-  left: 0;
-  bottom: 0;
   width: 100%;
   height: 1px;
-  transition: .3s;
 }
 
 
