@@ -56,6 +56,16 @@
 /* heros: end */
 
 /* timer: start */
+.time-flex {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 992px){
+  .time-flex {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
 .timer {
   text-align: center;
 }
