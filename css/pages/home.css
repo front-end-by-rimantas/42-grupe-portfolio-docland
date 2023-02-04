@@ -469,10 +469,15 @@
 
 .rating {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
 }
-
+@media (min-width: 576px){
+  .rating{
+    flex-direction: row;
+  }
+}
 .av {
   padding-left: 40px;
   padding-right: 40px;
@@ -512,6 +517,24 @@
 /* students review: end */
 
 /* email form: start */
+.abs {
+  position: relative;
+  
+}
+.abs::after {
+  content: '';
+  position: absolute;
+  background-color: #fcbf21;
+  height: 1px;
+  width: 0%;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+.abs:hover::after {
+  width: 100%;
+}
+
 .email-form {
   display: flex;
   height: 450px;
@@ -526,7 +549,7 @@
 .email-txt {
   margin-left: 12%;
   margin-right: 12%;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 1.2em;
   font-weight: 400;
   color: #fff;
@@ -536,9 +559,10 @@
 
 .email-box {
   height: 60px;
-  width: 600px;
+  width: 220px;
   background: none;
   border: none;
+  outline: none;
   border-bottom: 1px solid #fff;
   color: #fff;
   font-size: 20px;
@@ -547,6 +571,18 @@
 
 .abs {
   position: relative;
+}
+
+}
+@media (min-width: 530px){
+  .email-box{
+    width: 440px;
+  }
+}
+@media (min-width: 768px){
+  .email-box{
+    width: 660px;
+  }
 }
 
 ::placeholder {
@@ -564,7 +600,13 @@
 
 .fa-long-arrow-right {
   color: #fff;
+  transition: 0.3s;
 }
+
+.fa-long-arrow-right:hover{
+  color:#fcbf21;
+}
+
 
 /* email form: end */
 
