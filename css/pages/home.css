@@ -58,7 +58,6 @@
 
 .header-join-btn:hover {
   background-color: #FBC117;
-
   transition: 0.5s;
 }
 
@@ -71,6 +70,12 @@
 }
 
 
+
+@media (max-width: 1300px) {
+  .long-nav {
+    visibility: hidden;
+  }
+}
 
 
 /* header: end */
