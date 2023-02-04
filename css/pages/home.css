@@ -32,18 +32,40 @@
 
 .header-menu {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
-.header-anchor {
-  display: flex;
-  gap: 20px;
+.header-login-btn {
+  font-size: 16px;
+  text-decoration: none;
 }
 
-.header-btns {
-  display: flex;
-  gap: 30px;
+.header-join-btn {
+  width: 140px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+
+  background-color: #5DD9C1;
 }
+
+.login-underline::before {
+  position: absolute;
+  color: #000;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  transition: .3s;
+}
+
+
+
 
 /* header: end */
 
