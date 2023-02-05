@@ -22,7 +22,6 @@
 
 .row-header {
   display: flex;
-  /* gap: 150px; */
   align-items: center;
   justify-content: center;
   margin-top: 30px;
@@ -114,11 +113,14 @@
     visibility: visible;
   }
 
+  .header-logo {
+    padding-left: 50px;
+  }
+
   .row-menu {
-    position: absolute;
+    margin-right: 50px;
   }
 }
-
 
 /* header: end */
 

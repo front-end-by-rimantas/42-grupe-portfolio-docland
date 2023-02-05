@@ -4,7 +4,7 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# Omex
+# 42-grupe-portfolio-docland
 
 _website design project_
 
@@ -12,11 +12,11 @@ _website design project_
 
 ## 🌟 About
 
-This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
+This project is made by 42g-docland students and is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/40-grupe-portfolio/
+Site published at: https://front-end-by-rimantas.github.io/42-grupe-portfolio-docland/
 
-Design: [Omex-3](https://finestwp.co/demos/wp/omex/landing-03/), [Omex-5](https://finestwp.co/demos/wp/omex/landing-05/)
+Design: https://themelooks.org/demo/docland/html/home-course.html
 
 ## 🎯 Project features/goals
 
@@ -72,12 +72,15 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Marius: https://github.com/MariusKuria; 
+Valerijus: ;
+Dina: ;
+Mindaugas: ;
+Evaldas: ;
 
 ## ⚠️ License
 
 Distributed under the MIT License. See LICENSE.txt for more information.
 
 ## 🔗 Other resources
-
-https://randomuser.me/photos
+...
