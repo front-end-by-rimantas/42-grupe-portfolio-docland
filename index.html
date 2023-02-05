@@ -19,56 +19,65 @@
 
 <body>
     <!-- header: start -->
-    <div class="header">
 
-        <div class="header-logo">
-            <img src="./img/header-section/crs-logo.png" alt="logo" />
+    <div class="container container-header">
+
+        <div class="row row-header">
+            
+            <div class="col-4 col-sm-6 header-logo">
+                <img src="./img/header-section/crs-logo.png" alt="logo" />
+            </div>
+    
+            <div class="col-8 header-menu long-nav">
+                <a style="text-decoration: none; color: #5DD9C1;" href="#">Home</a>
+                <a style="text-decoration: none; color: #5B6B56;" href="#">Pricing</a>
+                <a style="text-decoration: none; color: #5B6B56;" href="#">Career</a>
+                <a style="text-decoration: none; color: #5B6B56;" href="#">Pages</a>
+                <a style="text-decoration: none; color: #5B6B56;" href="#">Blog</a>
+                <a style="text-decoration: none; color: #5B6B56;" href="#">Contact</a>
+                <a class="header-login-btn login-underline" style="color: #FBC117;" href="#">Login</a>
+                <a class="header-join-btn" style="text-decoration: none;" href="#">Join Now</a>   
+            </div> 
+
+            <div class="hamburger row-menu">
+                <a href="#" class="nav">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </a> 
+            </div>
+
         </div>
-
-        <div class="header-menu">
-            <div class="header-anchor">
-                <a style="text-decoration: none;" href="#">Home</a>
-                <a style="text-decoration: none;" href="#">Pricing</a>
-                <a style="text-decoration: none;" href="#">Career</a>
-                <a style="text-decoration: none;" href="#">Pages</a>
-                <a style="text-decoration: none;" href="#">Blog</a>
-                <a style="text-decoration: none;" href="#">Contact</a>
-            </div>
-
-            <div class="header-btns">
-                <a href="#">Login</a>
-                <a href="#">Join Now</a>
-            </div>
-
-        </div> 
+        
     </div>
+
     <!-- header: end -->
     
     <!-- heros: start -->
     <section class="container">
         <div class="row" >
-            <div class="col-6 left" >
+            <div class="col-12 col-lg-5 left" >
                     <div class="rate" >
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star-half-o"></i>
-                        <span>(2.3k)</span>
+                        <span class="rate-count" >(2.3k)</span>
                     </div>
-                    <h1>Learn UX Design</h1>
-                    <span>With <span>Don Norman</span></span>
-                    <p>Design High-Impact User Experiences. Research, Design and Prototype effective, visually-driven websites and apps</p>
+                    <h1 class="hero-h1">Learn UX Design</h1>
+                    <span class="word"> With <span class="person" >Don Norman</span></span>
+                    <p class="hero-content" >Design High-Impact User Experiences. Research, Design and Prototype effective, visually-driven websites and apps</p>
                     <a href="#">Enroll Now</a>
                     <a href="#">Financial Aid Available</a>
             </div>
-            <div class="col-6 right">
-                <!-- <img src="./img/Heros-section/duo-po-main-ft.png" alt="Sesiakampi su Apskritimu">
-                <img src="./img/Heros-section/apskritimas-po-main-ft.png" alt="Apskritimas"> -->
+            <div class="col-12 col-lg-6 right">
+                <img src="./img/Heros-section/duo-po-main-ft.png" alt="Sesiakampi su Apskritimu" class="image-hero-left" >
+                <img src="./img/Heros-section/apskritimas-po-main-ft.png" alt="Apskritimas" class="image-hero-circle" >
                 <div>
-                    <img src="./img/Heros-section/main-image.png" alt="Trys zmones ziuri i lentele">
+                    <img src="./img/Heros-section/main-image.png" alt="Trys zmones ziuri i lentele" class="image-hero" >
                 </div>
-                <a href="#">PlayButton</a>
+                <!-- <a href="#">PlayButton</a> -->
             </div>
         </div>
 </section>
@@ -77,20 +86,20 @@
     <!-- timer: start -->
     
     <section class="container">
-        <div class="row">
-            <div class="col-3   timer">
+        <div class="row time-flex ">
+            <div class=" col-lg-3  timer">
                 <h3 class="timer-h3">2125</h3>
                 <p class="timer-p">Enrolled Students</p>
             </div>
-            <div class="col-3  timer">
+            <div class=" col-lg-3 timer">
                 <h3 class="timer-h3">5 Weeks</h3>
                 <p class="timer-p">Estimated Complete Time</p>
             </div>
-            <div class="col-3 timer">
+            <div class="col-lg-3 timer">
                 <h3 class="timer-h3">25 September</h3>
                 <p class="timer-p">Estimated Complete Time</p>
             </div>
-            <div class="col-3  timer" >
+            <div class=" col-lg-3 timer" >
                 <h3 class="timer-h3">English</h3>
                 <p class="timer-p">Estimated Complete Time</p>
             </div>
@@ -456,11 +465,22 @@
     
     <!-- students review: start -->
     <section class="container">
-        <div class="row">
-            <h1 class="col-12">Student Reviews</h1>  
+        <div class="row ">
+            <div class="col-12 col-md-6">
+                <h1 class="">Student Reviews</h1>
+            </div>
+            <div class="benefit-btn hidden visible-md">
+                <button class="butn">
+                    <a href="#" class="stil fa fa-angle-left"></a>
+                </button>
+            <button class="butn">
+                    <a href="#" class="stil fa fa-angle-right"></a>
+                </button>
+            </div>
+        </div>
         </div>
         <div class="row">
-            <div class="stud-review col-6">
+            <div class="stud-review col-12 col-md-6">
                 <div class="studens-profile">
                     <img src="./img/students-reviews/doj.png" alt="logo">
                     <div class="name-review">
@@ -476,7 +496,7 @@
                 </div>
                 <p class="students-review">The course has been really helpful. I have been able to understand the fundamentals ofUI Design. The importance of wireframing, prototyping, colours and how to study other site wireframing and to implement them into my UI/UX Creative process.</p>
             </div>
-            <div class=" stud-review col-6">
+            <div class=" stud-review hidden col-md-6 visible-md">
                 <div class="studens-profile">
                     <img src="./img/students-reviews/sara.png" alt="logo">
                     <div class="name-review">
@@ -494,7 +514,7 @@
             </div>
 
         </div>
-        <div class="row rating">
+        <div class="row rating ">
             <div class="av">
                 <h1 class="view-number">4.84/5</h1>
                 <p class="count-name">Average Ratings</p>
@@ -526,6 +546,45 @@
     <!-- email form: end -->
     
     <!-- instructor: start -->
+    <section class="container">
+        <div class="row">
+            <h1 class="course-headline">Course Instructor</h1>  
+        </div>
+        <div class="row instructor-flex">
+            <div class="stud-review col-12 col-md-6">
+                <div class="instructor-profile">
+                    <img class="instructor-img" src="./img/course-instructor/dede.png" alt="logo">
+                    <div class="name-review">
+                        <h3 class="instruct-name">Sarah Taylor</h3>
+                        <span class="instructor-educ">UX Consultant & Expertise</span>
+                        <ul class="skils">
+                            <li class="list-icon"> <img src="./img/course-instructor/medal.png" alt="medal"> <span class="li-span"> Top Instructor in Skillshare</span></li>
+                            <li class="list-icon"> <img src="./img/course-instructor/book.png" alt=""> <span class="li-span">30K+ Students</span></li>
+                            <li class="list-icon"> <img src="./img/course-instructor/dekstop.png" alt=""> <span class="li-span">10 total courses</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="students-review">The course has been really helpful. I have been able to understand the fundamentals ofUI Design. The importance of wireframing, prototyping, colours and how to study other site wireframing and to implement them into my UI/UX Creative process.</p>
+            </div>
+            <div class=" stud-review col-12 col-md-6">
+                <div class="instructor-profile">
+                    <img class="instructor-img" src="./img/course-instructor/dede2.png" alt="logo">
+                    <div class="name-review">
+                        <h3 class="instruct-name">Ran Segall</h3>
+                        <span class="instructor-educ">UX Consultant & Expertise</span>
+                        <ul class="skils">
+                            <li class="list-icon"> <img src="./img/course-instructor/medal.png" alt="medal"> <span class="li-span"> Top Instructor in Skillshare</span></li>
+                            <li class="list-icon"> <img src="./img/course-instructor/book.png" alt=""> <span class="li-span">30K+ Students</span></li>
+                            <li class="list-icon"> <img src="./img/course-instructor/dekstop.png" alt=""> <span class="li-span">10 total courses</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="students-review">The course has been really helpful. I have been able to understand the fundamentals ofUI Design. The importance of wireframing, prototyping, colours and how to study other site wireframing and to implement them into my UI/UX Creative process.</p>
+            </div>
+
+        </div>
+       
+    </section>
     <!-- instructor: end -->
 
     <!-- footer: start -->
