@@ -19,56 +19,65 @@
 
 <body>
     <!-- header: start -->
-    <div class="header">
 
-        <div class="header-logo">
-            <img src="./img/header-img/crs-logo.png" alt="logo" />
+    <div class="container container-header">
+
+        <div class="row row-header">
+            
+            <div class="col-4 col-sm-6 header-logo">
+                <img src="./img/header-section/crs-logo.png" alt="logo" />
+            </div>
+    
+            <div class="col-8 header-menu long-nav">
+                <a style="text-decoration: none; color: #5DD9C1;" href="#">Home</a>
+                <a style="text-decoration: none; color: #5B6B56;" href="#">Pricing</a>
+                <a style="text-decoration: none; color: #5B6B56;" href="#">Career</a>
+                <a style="text-decoration: none; color: #5B6B56;" href="#">Pages</a>
+                <a style="text-decoration: none; color: #5B6B56;" href="#">Blog</a>
+                <a style="text-decoration: none; color: #5B6B56;" href="#">Contact</a>
+                <a class="header-login-btn login-underline" style="color: #FBC117;" href="#">Login</a>
+                <a class="header-join-btn" style="text-decoration: none;" href="#">Join Now</a>   
+            </div> 
+
+            <div class="hamburger row-menu">
+                <a href="#" class="nav">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </a> 
+            </div>
+
         </div>
-
-        <div class="header-menu">
-            <div class="header-anchor">
-                <a style="text-decoration: none;" href="#">Home</a>
-                <a style="text-decoration: none;" href="#">Pricing</a>
-                <a style="text-decoration: none;" href="#">Career</a>
-                <a style="text-decoration: none;" href="#">Pages</a>
-                <a style="text-decoration: none;" href="#">Blog</a>
-                <a style="text-decoration: none;" href="#">Contact</a>
-            </div>
-
-            <div class="header-btns">
-                <a href="#">Login</a>
-                <a href="#">Join Now</a>
-            </div>
-
-        </div> 
+        
     </div>
+
     <!-- header: end -->
     
     <!-- heros: start -->
     <section class="container">
         <div class="row" >
-            <div class="col-6 left" >
+            <div class="col-12 col-lg-5 left" >
                     <div class="rate" >
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star" ></i>
                         <i class="fa fa-star-half-o"></i>
-                        <span>(2.3k)</span>
+                        <span class="rate-count" >(2.3k)</span>
                     </div>
-                    <h1>Learn UX Design</h1>
-                    <span>With <span>Don Norman</span></span>
-                    <p>Design High-Impact User Experiences. Research, Design and Prototype effective, visually-driven websites and apps</p>
+                    <h1 class="hero-h1">Learn UX Design</h1>
+                    <span class="word"> With <span class="person" >Don Norman</span></span>
+                    <p class="hero-content" >Design High-Impact User Experiences. Research, Design and Prototype effective, visually-driven websites and apps</p>
                     <a href="#">Enroll Now</a>
                     <a href="#">Financial Aid Available</a>
             </div>
-            <div class="col-6 right">
-                <!-- <img src="./img/Heros-section/duo-po-main-ft.png" alt="Sesiakampi su Apskritimu">
-                <img src="./img/Heros-section/apskritimas-po-main-ft.png" alt="Apskritimas"> -->
+            <div class="col-12 col-lg-6 right">
+                <img src="./img/Heros-section/duo-po-main-ft.png" alt="Sesiakampi su Apskritimu" class="image-hero-left" >
+                <img src="./img/Heros-section/apskritimas-po-main-ft.png" alt="Apskritimas" class="image-hero-circle" >
                 <div>
-                    <img src="./img/Heros-section/main-image.png" alt="Trys zmones ziuri i lentele">
+                    <img src="./img/Heros-section/main-image.png" alt="Trys zmones ziuri i lentele" class="image-hero" >
                 </div>
-                <a href="#">PlayButton</a>
+                <!-- <a href="#">PlayButton</a> -->
             </div>
         </div>
 </section>
@@ -77,20 +86,20 @@
     <!-- timer: start -->
     
     <section class="container">
-        <div class="row">
-            <div class="col-3   timer">
+        <div class="row time-flex ">
+            <div class=" col-lg-3  timer">
                 <h3 class="timer-h3">2125</h3>
                 <p class="timer-p">Enrolled Students</p>
             </div>
-            <div class="col-3  timer">
+            <div class=" col-lg-3 timer">
                 <h3 class="timer-h3">5 Weeks</h3>
                 <p class="timer-p">Estimated Complete Time</p>
             </div>
-            <div class="col-3 timer">
+            <div class="col-lg-3 timer">
                 <h3 class="timer-h3">25 September</h3>
                 <p class="timer-p">Estimated Complete Time</p>
             </div>
-            <div class="col-3  timer" >
+            <div class=" col-lg-3 timer" >
                 <h3 class="timer-h3">English</h3>
                 <p class="timer-p">Estimated Complete Time</p>
             </div>
@@ -163,82 +172,161 @@
     <!-- course: end -->
     
     <!-- course syllabus: start -->
-    <h1>
-        Course Syllabus
-    </h1>
-
-
-
-        <div class="container">
-                    <div class="row">
-                        <div class="col-2">
-                        <img src="/img/syllabus/Calendar.png" class="col-1">
-                        <h3 class="weektitle">Week 1</h3>
-                        </div>
-                        <h3>
-                            Introduction To UX Design?
-                        </h3>
-                        <p>This week I will give you a brief overview of the user experience process that I will teach in this course sequence. We will begin by defining the term "User Experience".</p>
-                        <div class="span">
-                            <span class="span">3 hours to complete</span>
-                            <span class="span">3 Lectures</span>
-                            <span class="span">2 videos</span>
-                        </div>                    
+    
+    <section class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="firsthone">
+                <h1>Course Syllabus</h1>
+                <a class="btn syllabusbtn" href="#">Download Syllabus</a>
+                </div>
+            <div class="row coursebox">
+                <div class="weeknumber">
+                        <svg class="weekimg" xmlns="http://www.w3.org/2000/svg" id="calendar" width="30" height="30" viewBox="0 0 30 30" class="svg replaced-svg">
+                                <path id="Path_3001" data-name="Path 3001" d="M25.313,2.344H23.789V1.172a1.172,1.172,0,0,0-2.344,0V2.344H16.113V1.172a1.172,1.172,0,1,0-2.344,0V2.344H8.5V1.172a1.172,1.172,0,1,0-2.344,0V2.344H4.688A4.693,4.693,0,0,0,0,7.031V25.313A4.693,4.693,0,0,0,4.688,30h8.965a1.172,1.172,0,1,0,0-2.344H4.688a2.346,2.346,0,0,1-2.344-2.344V7.031A2.346,2.346,0,0,1,4.688,4.688H6.152V5.859a1.172,1.172,0,1,0,2.344,0V4.688H13.77V5.859a1.172,1.172,0,1,0,2.344,0V4.688h5.332V5.859a1.172,1.172,0,0,0,2.344,0V4.688h1.523a2.346,2.346,0,0,1,2.344,2.344v6.68a1.172,1.172,0,1,0,2.344,0V7.031A4.693,4.693,0,0,0,25.313,2.344Z" fill="#fbc006"></path>
+                                <path id="Path_3002" data-name="Path 3002" d="M277.019,270a7.019,7.019,0,1,0,7.019,7.019A7.027,7.027,0,0,0,277.019,270Zm0,11.718a4.7,4.7,0,1,1,4.7-4.7A4.7,4.7,0,0,1,277.019,281.718Z" transform="translate(-254.039 -254.039)" fill="#fbc006"></path>
+                                <path id="Path_3003" data-name="Path 3003" d="M373.843,332.378h-.522V331.16a1.16,1.16,0,0,0-2.32,0v2.378a1.16,1.16,0,0,0,1.16,1.16h1.682a1.16,1.16,0,0,0,0-2.32Z" transform="translate(-349.18 -310.628)" fill="#fbc006"></path>
+                                <circle id="Ellipse_21" data-name="Ellipse 21" cx="1.5" cy="1.5" r="1.5" transform="translate(16.028 10.972)" fill="#fbc006"></circle>
+                                <circle id="Ellipse_22" data-name="Ellipse 22" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 16.028)" fill="#fbc006"></circle>
+                                <ellipse id="Ellipse_23" data-name="Ellipse 23" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 10.972)" fill="#fbc006"></ellipse>
+                                <ellipse id="Ellipse_24" data-name="Ellipse 24" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 16.028)" fill="#fbc006"></ellipse>
+                                <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 21.084)" fill="#fbc006"></ellipse>
+                                <circle id="Ellipse_26" data-name="Ellipse 26" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 21.084)" fill="#fbc006"></circle>
+                                <circle id="Ellipse_27" data-name="Ellipse 27" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 10.972)" fill="#fbc006"></circle>
+                        </svg>
+                        <h3>Week 1</h3>
+                </div>
+                <div class="weekparagraph">
+                    <h3 class="weektitle">
+                        Introduction To UX Design?
+                    </h3>
+                    <p class="weektext">This week I will give you a brief overview of the user experience process that I will teach in this course sequence. We will begin by defining the term "User Experience".</p>
+                    <div class="span">
+                        <span class="span">3 hours to complete</span>
+                        <span class="span">3 Lectures</span>
+                        <span class="span">2 videos</span>
                     </div>
-                    <div class="row">
-                        <img src="/img/syllabus/Calendar.png" class="col-1">
+                </div>
+            </div>                    
+        
+            <div class="row coursebox">
+                <div class="weeknumber">
+                        <svg class="weekimg" xmlns="http://www.w3.org/2000/svg" id="calendar" width="30" height="30" viewBox="0 0 30 30" class="svg replaced-svg">
+                                <path id="Path_3001" data-name="Path 3001" d="M25.313,2.344H23.789V1.172a1.172,1.172,0,0,0-2.344,0V2.344H16.113V1.172a1.172,1.172,0,1,0-2.344,0V2.344H8.5V1.172a1.172,1.172,0,1,0-2.344,0V2.344H4.688A4.693,4.693,0,0,0,0,7.031V25.313A4.693,4.693,0,0,0,4.688,30h8.965a1.172,1.172,0,1,0,0-2.344H4.688a2.346,2.346,0,0,1-2.344-2.344V7.031A2.346,2.346,0,0,1,4.688,4.688H6.152V5.859a1.172,1.172,0,1,0,2.344,0V4.688H13.77V5.859a1.172,1.172,0,1,0,2.344,0V4.688h5.332V5.859a1.172,1.172,0,0,0,2.344,0V4.688h1.523a2.346,2.346,0,0,1,2.344,2.344v6.68a1.172,1.172,0,1,0,2.344,0V7.031A4.693,4.693,0,0,0,25.313,2.344Z" fill="#fbc006"></path>
+                                <path id="Path_3002" data-name="Path 3002" d="M277.019,270a7.019,7.019,0,1,0,7.019,7.019A7.027,7.027,0,0,0,277.019,270Zm0,11.718a4.7,4.7,0,1,1,4.7-4.7A4.7,4.7,0,0,1,277.019,281.718Z" transform="translate(-254.039 -254.039)" fill="#fbc006"></path>
+                                <path id="Path_3003" data-name="Path 3003" d="M373.843,332.378h-.522V331.16a1.16,1.16,0,0,0-2.32,0v2.378a1.16,1.16,0,0,0,1.16,1.16h1.682a1.16,1.16,0,0,0,0-2.32Z" transform="translate(-349.18 -310.628)" fill="#fbc006"></path>
+                                <circle id="Ellipse_21" data-name="Ellipse 21" cx="1.5" cy="1.5" r="1.5" transform="translate(16.028 10.972)" fill="#fbc006"></circle>
+                                <circle id="Ellipse_22" data-name="Ellipse 22" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 16.028)" fill="#fbc006"></circle>
+                                <ellipse id="Ellipse_23" data-name="Ellipse 23" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 10.972)" fill="#fbc006"></ellipse>
+                                <ellipse id="Ellipse_24" data-name="Ellipse 24" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 16.028)" fill="#fbc006"></ellipse>
+                                <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 21.084)" fill="#fbc006"></ellipse>
+                                <circle id="Ellipse_26" data-name="Ellipse 26" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 21.084)" fill="#fbc006"></circle>
+                                <circle id="Ellipse_27" data-name="Ellipse 27" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 10.972)" fill="#fbc006"></circle>
+                        </svg>
                         <h3>Week 2</h3>
-                        <h3>
-                            UX Strategy & Formula
-                        </h3>
-                        <p>This week I will give you a brief overview of the user experience process that I will teach in this course sequence. We will begin by defining the term "User Experience".</p>
-                        <div class="span">
-                            <span class="span">3 hours to complete</span>
-                            <span class="span">3 Lectures</span>
-                            <span class="span">2 videos</span>
-                        </div>
+                </div>
+                <div class="weekparagraph">
+                    <h3 class="weektitle">
+                        UX Strategy & Formula
+                    </h3>
+                    <p class="weektext">This week I will give you a brief overview of the user experience process that I will teach in this course sequence. We will begin by defining the term "User Experience".</p>
+                    <div class="span">
+                        <span class="span">3 hours to complete</span>
+                        <span class="span">3 Lectures</span>
+                        <span class="span">2 videos</span>
                     </div>
-                    <div class="row">
-                        <img src="/img/syllabus/Calendar.png" class="col-1">
-                        <h3>Week 3</h3>
-                        <h3>
-                            Talking About Empathize & Define
-                        </h3>
-                        <p>This week I will give you a brief overview of the user experience process that I will teach in this course sequence. We will begin by defining the term "User Experience".</p>
-                        <div class="span">
-                            <span class="span">3 hours to complete</span>
-                            <span class="span">3 Lectures</span>
-                            <span class="span">2 videos</span>
-                        </div> 
-                    </div>  
-                    <div class="row">
-                        <img src="/img/syllabus/Calendar.png" class="col-1">
-                        <h3>Week 4</h3>
-                        <h3>
-                            Ideate, Iterate, Prototype & Test
-                        </h3>
-                        <p>This week I will give you a brief overview of the user experience process that I will teach in this course sequence. We will begin by defining the term "User Experience".</p>
-                        <div class="span">
-                            <span class="span">3 hours to complete</span>
-                            <span class="span">3 Lectures</span>
-                            <span class="span">2 videos</span>
-                        </div> 
-                    </div>
-                    <div class="row">
-                        <img src="/img/syllabus/Calendar.png" class="col-1">
-                        <h3>Week 5</h3>
-                        <h3>
-                            Build Industry Related UX Portfolio
-                        </h3>
-                        <p>This week I will give you a brief overview of the user experience process that I will teach in this course sequence. We will begin by defining the term "User Experience".</p>
-                        <div class="span">
-                            <span class="span">3 hours to complete</span>
-                            <span class="span">3 Lectures</span>
-                            <span class="span">2 videos</span>
-                        </div>
-                    </div>
-        </div>
+                </div>
+            </div>
 
+            <div class="row coursebox">
+                <div class="weeknumber">
+                        <svg class="weekimg" xmlns="http://www.w3.org/2000/svg" id="calendar" width="30" height="30" viewBox="0 0 30 30" class="svg replaced-svg">
+                                <path id="Path_3001" data-name="Path 3001" d="M25.313,2.344H23.789V1.172a1.172,1.172,0,0,0-2.344,0V2.344H16.113V1.172a1.172,1.172,0,1,0-2.344,0V2.344H8.5V1.172a1.172,1.172,0,1,0-2.344,0V2.344H4.688A4.693,4.693,0,0,0,0,7.031V25.313A4.693,4.693,0,0,0,4.688,30h8.965a1.172,1.172,0,1,0,0-2.344H4.688a2.346,2.346,0,0,1-2.344-2.344V7.031A2.346,2.346,0,0,1,4.688,4.688H6.152V5.859a1.172,1.172,0,1,0,2.344,0V4.688H13.77V5.859a1.172,1.172,0,1,0,2.344,0V4.688h5.332V5.859a1.172,1.172,0,0,0,2.344,0V4.688h1.523a2.346,2.346,0,0,1,2.344,2.344v6.68a1.172,1.172,0,1,0,2.344,0V7.031A4.693,4.693,0,0,0,25.313,2.344Z" fill="#fbc006"></path>
+                                <path id="Path_3002" data-name="Path 3002" d="M277.019,270a7.019,7.019,0,1,0,7.019,7.019A7.027,7.027,0,0,0,277.019,270Zm0,11.718a4.7,4.7,0,1,1,4.7-4.7A4.7,4.7,0,0,1,277.019,281.718Z" transform="translate(-254.039 -254.039)" fill="#fbc006"></path>
+                                <path id="Path_3003" data-name="Path 3003" d="M373.843,332.378h-.522V331.16a1.16,1.16,0,0,0-2.32,0v2.378a1.16,1.16,0,0,0,1.16,1.16h1.682a1.16,1.16,0,0,0,0-2.32Z" transform="translate(-349.18 -310.628)" fill="#fbc006"></path>
+                                <circle id="Ellipse_21" data-name="Ellipse 21" cx="1.5" cy="1.5" r="1.5" transform="translate(16.028 10.972)" fill="#fbc006"></circle>
+                                <circle id="Ellipse_22" data-name="Ellipse 22" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 16.028)" fill="#fbc006"></circle>
+                                <ellipse id="Ellipse_23" data-name="Ellipse 23" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 10.972)" fill="#fbc006"></ellipse>
+                                <ellipse id="Ellipse_24" data-name="Ellipse 24" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 16.028)" fill="#fbc006"></ellipse>
+                                <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 21.084)" fill="#fbc006"></ellipse>
+                                <circle id="Ellipse_26" data-name="Ellipse 26" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 21.084)" fill="#fbc006"></circle>
+                                <circle id="Ellipse_27" data-name="Ellipse 27" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 10.972)" fill="#fbc006"></circle>
+                        </svg>
+                        <h3>Week 3</h3>
+                </div>
+                <div class="weekparagraph">
+                    <h3 class="weektitle">
+                        Talking About Empathize & Define
+                    </h3>
+                    <p class="weektext">This week I will give you a brief overview of the user experience process that I will teach in this course sequence. We will begin by defining the term "User Experience".</p>
+                    <div class="span">
+                        <span class="span">3 hours to complete</span>
+                        <span class="span">3 Lectures</span>
+                        <span class="span">2 videos</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row coursebox">
+                <div class="weeknumber">
+                        <svg class="weekimg" xmlns="http://www.w3.org/2000/svg" id="calendar" width="30" height="30" viewBox="0 0 30 30" class="svg replaced-svg">
+                                <path id="Path_3001" data-name="Path 3001" d="M25.313,2.344H23.789V1.172a1.172,1.172,0,0,0-2.344,0V2.344H16.113V1.172a1.172,1.172,0,1,0-2.344,0V2.344H8.5V1.172a1.172,1.172,0,1,0-2.344,0V2.344H4.688A4.693,4.693,0,0,0,0,7.031V25.313A4.693,4.693,0,0,0,4.688,30h8.965a1.172,1.172,0,1,0,0-2.344H4.688a2.346,2.346,0,0,1-2.344-2.344V7.031A2.346,2.346,0,0,1,4.688,4.688H6.152V5.859a1.172,1.172,0,1,0,2.344,0V4.688H13.77V5.859a1.172,1.172,0,1,0,2.344,0V4.688h5.332V5.859a1.172,1.172,0,0,0,2.344,0V4.688h1.523a2.346,2.346,0,0,1,2.344,2.344v6.68a1.172,1.172,0,1,0,2.344,0V7.031A4.693,4.693,0,0,0,25.313,2.344Z" fill="#fbc006"></path>
+                                <path id="Path_3002" data-name="Path 3002" d="M277.019,270a7.019,7.019,0,1,0,7.019,7.019A7.027,7.027,0,0,0,277.019,270Zm0,11.718a4.7,4.7,0,1,1,4.7-4.7A4.7,4.7,0,0,1,277.019,281.718Z" transform="translate(-254.039 -254.039)" fill="#fbc006"></path>
+                                <path id="Path_3003" data-name="Path 3003" d="M373.843,332.378h-.522V331.16a1.16,1.16,0,0,0-2.32,0v2.378a1.16,1.16,0,0,0,1.16,1.16h1.682a1.16,1.16,0,0,0,0-2.32Z" transform="translate(-349.18 -310.628)" fill="#fbc006"></path>
+                                <circle id="Ellipse_21" data-name="Ellipse 21" cx="1.5" cy="1.5" r="1.5" transform="translate(16.028 10.972)" fill="#fbc006"></circle>
+                                <circle id="Ellipse_22" data-name="Ellipse 22" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 16.028)" fill="#fbc006"></circle>
+                                <ellipse id="Ellipse_23" data-name="Ellipse 23" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 10.972)" fill="#fbc006"></ellipse>
+                                <ellipse id="Ellipse_24" data-name="Ellipse 24" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 16.028)" fill="#fbc006"></ellipse>
+                                <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 21.084)" fill="#fbc006"></ellipse>
+                                <circle id="Ellipse_26" data-name="Ellipse 26" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 21.084)" fill="#fbc006"></circle>
+                                <circle id="Ellipse_27" data-name="Ellipse 27" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 10.972)" fill="#fbc006"></circle>
+                        </svg>
+                        <h3>Week 4</h3>
+                </div>
+                <div class="weekparagraph">
+                    <h3 class="weektitle">
+                        Ideate, Iterate, Prototype & Test
+                    </h3>
+                    <p class="weektext">This week I will give you a brief overview of the user experience process that I will teach in this course sequence. We will begin by defining the term "User Experience".</p>
+                    <div class="span">
+                        <span class="span">3 hours to complete</span>
+                        <span class="span">3 Lectures</span>
+                        <span class="span">2 videos</span>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="row coursebox">
+                <div class="weeknumber">
+                        <svg class="weekimg" xmlns="http://www.w3.org/2000/svg" id="calendar" width="30" height="30" viewBox="0 0 30 30" class="svg replaced-svg">
+                                <path id="Path_3001" data-name="Path 3001" d="M25.313,2.344H23.789V1.172a1.172,1.172,0,0,0-2.344,0V2.344H16.113V1.172a1.172,1.172,0,1,0-2.344,0V2.344H8.5V1.172a1.172,1.172,0,1,0-2.344,0V2.344H4.688A4.693,4.693,0,0,0,0,7.031V25.313A4.693,4.693,0,0,0,4.688,30h8.965a1.172,1.172,0,1,0,0-2.344H4.688a2.346,2.346,0,0,1-2.344-2.344V7.031A2.346,2.346,0,0,1,4.688,4.688H6.152V5.859a1.172,1.172,0,1,0,2.344,0V4.688H13.77V5.859a1.172,1.172,0,1,0,2.344,0V4.688h5.332V5.859a1.172,1.172,0,0,0,2.344,0V4.688h1.523a2.346,2.346,0,0,1,2.344,2.344v6.68a1.172,1.172,0,1,0,2.344,0V7.031A4.693,4.693,0,0,0,25.313,2.344Z" fill="#fbc006"></path>
+                                <path id="Path_3002" data-name="Path 3002" d="M277.019,270a7.019,7.019,0,1,0,7.019,7.019A7.027,7.027,0,0,0,277.019,270Zm0,11.718a4.7,4.7,0,1,1,4.7-4.7A4.7,4.7,0,0,1,277.019,281.718Z" transform="translate(-254.039 -254.039)" fill="#fbc006"></path>
+                                <path id="Path_3003" data-name="Path 3003" d="M373.843,332.378h-.522V331.16a1.16,1.16,0,0,0-2.32,0v2.378a1.16,1.16,0,0,0,1.16,1.16h1.682a1.16,1.16,0,0,0,0-2.32Z" transform="translate(-349.18 -310.628)" fill="#fbc006"></path>
+                                <circle id="Ellipse_21" data-name="Ellipse 21" cx="1.5" cy="1.5" r="1.5" transform="translate(16.028 10.972)" fill="#fbc006"></circle>
+                                <circle id="Ellipse_22" data-name="Ellipse 22" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 16.028)" fill="#fbc006"></circle>
+                                <ellipse id="Ellipse_23" data-name="Ellipse 23" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 10.972)" fill="#fbc006"></ellipse>
+                                <ellipse id="Ellipse_24" data-name="Ellipse 24" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 16.028)" fill="#fbc006"></ellipse>
+                                <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="1.471" cy="1.5" rx="1.471" ry="1.5" transform="translate(5.914 21.084)" fill="#fbc006"></ellipse>
+                                <circle id="Ellipse_26" data-name="Ellipse 26" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 21.084)" fill="#fbc006"></circle>
+                                <circle id="Ellipse_27" data-name="Ellipse 27" cx="1.5" cy="1.5" r="1.5" transform="translate(10.972 10.972)" fill="#fbc006"></circle>
+                        </svg>
+                        <h3>Week 5</h3>
+                </div>
+                <div class="weekparagraph">
+                    <h3 class="weektitle">
+                        Build Industry Related UX Portfolio
+                    </h3>
+                    <p class="weektext">This week I will give you a brief overview of the user experience process that I will teach in this course sequence. We will begin by defining the term "User Experience".</p>
+                    <div class="span">
+                        <span class="span">3 hours to complete</span>
+                        <span class="span">3 Lectures</span>
+                        <span class="span">2 videos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>   
     <!-- course syllabus: end -->
     
     <!-- course benefit: start -->
@@ -246,9 +334,9 @@
 
 <div class="container">
 
-    <div class="row">
-        <div class="col-6">
-            <h1>Course Benefit</h1>
+    <div class="row main-title-row">
+        <div class="col-6 ">
+            <h1 class="main-title">Course Benefit</h1>
         </div>
 
         <div class="benefit-btn">
@@ -279,80 +367,120 @@
             <div class="benefit-box-text">
                 <h1 class="title">Flexible Deadline</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, sapiente.</p>
+            </div> 
+        </div>
+
+        <div class="col-3 benefit-box no2">
+            <div class="benefit-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="40" viewBox="0 0 34 40" class="svg replaced-svg">
+                    <g id="s2" transform="translate(-7 -2)">
+                      <path id="Path_2982" data-name="Path 2982" d="M23.384,33H22.038a1.346,1.346,0,1,1-2.692,0H18a2.692,2.692,0,1,0,5.384,0Z" transform="translate(-3.505 -10.347)" fill="#00b4ff"></path>
+                      <path id="Path_2983" data-name="Path 2983" d="M37.493,24.184,33.52,23.127v-.789a5.977,5.977,0,0,0,3.4-5.357v-.665a.673.673,0,0,0,.68-.665v-2a6.8,6.8,0,0,0-13.6,0v2a.673.673,0,0,0,.68.665v.665a5.977,5.977,0,0,0,3.4,5.357v.789L24.1,24.185a4.873,4.873,0,0,0-.859.333,5.792,5.792,0,0,0,.074-.882V22.97A.673.673,0,0,0,24,22.3v-2a6.8,6.8,0,0,0-13.6,0v2a.673.673,0,0,0,.68.665v.665a5.977,5.977,0,0,0,3.4,5.357v.789L10.5,30.839A4.7,4.7,0,0,0,7,35.333V39.6a.673.673,0,0,0,.68.665H26.72a.673.673,0,0,0,.68-.665V35.333a4.512,4.512,0,0,0-.352-1.717H40.32a.673.673,0,0,0,.68-.665V28.679A4.7,4.7,0,0,0,37.493,24.184ZM25.36,13.654a5.441,5.441,0,0,1,10.88,0v1.3a3.375,3.375,0,0,1-2.56-1.807l-.232-.454a.679.679,0,0,0-.5-.359.689.689,0,0,0-.589.186l-1.128,1.1a4.782,4.782,0,0,1-3.365,1.364H25.36Zm.68,3.327v-.665h1.827a6.145,6.145,0,0,0,4.327-1.754l.476-.466a4.715,4.715,0,0,0,2.89,2.078v.807a4.761,4.761,0,0,1-9.52,0ZM32.4,24.13l-1.6,1.3-1.6-1.3a.653.653,0,0,0,.237-.5v-.82a6.068,6.068,0,0,0,2.72,0v.82A.653.653,0,0,0,32.4,24.13ZM11.76,20.308a5.441,5.441,0,0,1,10.88,0v1.3A3.375,3.375,0,0,1,20.08,19.8l-.232-.454a.679.679,0,0,0-.5-.359.689.689,0,0,0-.589.186l-1.128,1.1a4.782,4.782,0,0,1-3.365,1.364H11.76Zm.68,3.327V22.97h1.827a6.145,6.145,0,0,0,4.327-1.754l.476-.466a4.715,4.715,0,0,0,2.89,2.078v.807a4.761,4.761,0,0,1-9.52,0Zm8.166,4.973c0,.024-.006.047-.006.071v1.283l-.68-.181v-.789A6.078,6.078,0,0,0,20.606,28.608ZM18.8,30.784l-1.6,1.3-1.6-1.3a.652.652,0,0,0,.237-.5v-.82a6.068,6.068,0,0,0,2.72,0v.82a.653.653,0,0,0,.237.494Zm-5.677.738.952-.253,2.448,2v1.682h1.36V33.263l2.448-2,.952.253v1.154L17.2,36.666l-4.08-3.992Zm12.92,7.418H8.36V35.333a3.355,3.355,0,0,1,2.5-3.211l.9-.236v1.065a.658.658,0,0,0,.2.47l4.76,4.658a.691.691,0,0,0,.962,0l4.76-4.658a.658.658,0,0,0,.2-.47V31.886l.894.238a3.357,3.357,0,0,1,2.506,3.209Zm13.6-6.654H26.214a4.764,4.764,0,0,0-2.321-1.447l-1.933-.514V28.679a3.355,3.355,0,0,1,2.5-3.211l3.208-.854,2.693,2.2a.692.692,0,0,0,.87,0l2.693-2.2,3.206.853a3.357,3.357,0,0,1,2.506,3.211Z" transform="translate(0 -1.635)" fill="#00b4ff"></path>
+                      <path id="Path_2984" data-name="Path 2984" d="M37.676,49.2l-2.692,2.692.952.952L37.478,51.3V56.4H22v1.346H38.151a.673.673,0,0,0,.673-.673V51.3l1.543,1.543.952-.952L38.627,49.2A.673.673,0,0,0,37.676,49.2Z" transform="translate(-4.554 -15.749)" fill="#00b4ff"></path>
+                      <path id="Path_2985" data-name="Path 2985" d="M20.518,10.749a.691.691,0,0,0,.484-.2L23.744,7.86l-.969-.952L21.2,8.451V3.346h15.76V2H20.518a.679.679,0,0,0-.685.673V8.451L18.262,6.908l-.969.952,2.741,2.692A.692.692,0,0,0,20.518,10.749Z" transform="translate(-3.366)" fill="#00b4ff"></path>
+                    </g>
+                  </svg>
             </div>
-            
+            <div class="benefit-box-text">
+                <h1 class="title">100% Online</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, sapiente.</p>
+            </div>
         </div>
 
-        <div class="col-3">
-            <h1 class="title">100% Online</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, sapiente.</p>
+        <div class="col-3 benefit-box no3">
+            <div class="benefit-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="40" viewBox="0 0 34 40" class="svg replaced-svg">
+                    <g id="s2" transform="translate(-7 -2)">
+                      <path id="Path_2982" data-name="Path 2982" d="M23.384,33H22.038a1.346,1.346,0,1,1-2.692,0H18a2.692,2.692,0,1,0,5.384,0Z" transform="translate(-3.505 -10.347)" fill="#00b4ff"></path>
+                      <path id="Path_2983" data-name="Path 2983" d="M37.493,24.184,33.52,23.127v-.789a5.977,5.977,0,0,0,3.4-5.357v-.665a.673.673,0,0,0,.68-.665v-2a6.8,6.8,0,0,0-13.6,0v2a.673.673,0,0,0,.68.665v.665a5.977,5.977,0,0,0,3.4,5.357v.789L24.1,24.185a4.873,4.873,0,0,0-.859.333,5.792,5.792,0,0,0,.074-.882V22.97A.673.673,0,0,0,24,22.3v-2a6.8,6.8,0,0,0-13.6,0v2a.673.673,0,0,0,.68.665v.665a5.977,5.977,0,0,0,3.4,5.357v.789L10.5,30.839A4.7,4.7,0,0,0,7,35.333V39.6a.673.673,0,0,0,.68.665H26.72a.673.673,0,0,0,.68-.665V35.333a4.512,4.512,0,0,0-.352-1.717H40.32a.673.673,0,0,0,.68-.665V28.679A4.7,4.7,0,0,0,37.493,24.184ZM25.36,13.654a5.441,5.441,0,0,1,10.88,0v1.3a3.375,3.375,0,0,1-2.56-1.807l-.232-.454a.679.679,0,0,0-.5-.359.689.689,0,0,0-.589.186l-1.128,1.1a4.782,4.782,0,0,1-3.365,1.364H25.36Zm.68,3.327v-.665h1.827a6.145,6.145,0,0,0,4.327-1.754l.476-.466a4.715,4.715,0,0,0,2.89,2.078v.807a4.761,4.761,0,0,1-9.52,0ZM32.4,24.13l-1.6,1.3-1.6-1.3a.653.653,0,0,0,.237-.5v-.82a6.068,6.068,0,0,0,2.72,0v.82A.653.653,0,0,0,32.4,24.13ZM11.76,20.308a5.441,5.441,0,0,1,10.88,0v1.3A3.375,3.375,0,0,1,20.08,19.8l-.232-.454a.679.679,0,0,0-.5-.359.689.689,0,0,0-.589.186l-1.128,1.1a4.782,4.782,0,0,1-3.365,1.364H11.76Zm.68,3.327V22.97h1.827a6.145,6.145,0,0,0,4.327-1.754l.476-.466a4.715,4.715,0,0,0,2.89,2.078v.807a4.761,4.761,0,0,1-9.52,0Zm8.166,4.973c0,.024-.006.047-.006.071v1.283l-.68-.181v-.789A6.078,6.078,0,0,0,20.606,28.608ZM18.8,30.784l-1.6,1.3-1.6-1.3a.652.652,0,0,0,.237-.5v-.82a6.068,6.068,0,0,0,2.72,0v.82a.653.653,0,0,0,.237.494Zm-5.677.738.952-.253,2.448,2v1.682h1.36V33.263l2.448-2,.952.253v1.154L17.2,36.666l-4.08-3.992Zm12.92,7.418H8.36V35.333a3.355,3.355,0,0,1,2.5-3.211l.9-.236v1.065a.658.658,0,0,0,.2.47l4.76,4.658a.691.691,0,0,0,.962,0l4.76-4.658a.658.658,0,0,0,.2-.47V31.886l.894.238a3.357,3.357,0,0,1,2.506,3.209Zm13.6-6.654H26.214a4.764,4.764,0,0,0-2.321-1.447l-1.933-.514V28.679a3.355,3.355,0,0,1,2.5-3.211l3.208-.854,2.693,2.2a.692.692,0,0,0,.87,0l2.693-2.2,3.206.853a3.357,3.357,0,0,1,2.506,3.211Z" transform="translate(0 -1.635)" fill="#00b4ff"></path>
+                      <path id="Path_2984" data-name="Path 2984" d="M37.676,49.2l-2.692,2.692.952.952L37.478,51.3V56.4H22v1.346H38.151a.673.673,0,0,0,.673-.673V51.3l1.543,1.543.952-.952L38.627,49.2A.673.673,0,0,0,37.676,49.2Z" transform="translate(-4.554 -15.749)" fill="#00b4ff"></path>
+                      <path id="Path_2985" data-name="Path 2985" d="M20.518,10.749a.691.691,0,0,0,.484-.2L23.744,7.86l-.969-.952L21.2,8.451V3.346h15.76V2H20.518a.679.679,0,0,0-.685.673V8.451L18.262,6.908l-.969.952,2.741,2.692A.692.692,0,0,0,20.518,10.749Z" transform="translate(-3.366)" fill="#00b4ff"></path>
+                    </g>
+                  </svg>
+            </div>
+            <div class="benefit-box-text">
+                <h1 class="title">1-1 Mentoring</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, sapiente.</p>
+            </div>
         </div>
 
-        <div class="col-3">
-            <h1 class="title">1-1 Mentoring</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, sapiente.</p>
-        </div>
-
-        <div class="col-3">
-            <h1 class="title">Project reviews</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, sapiente.</p>
+        <div class="col-3 benefit-box no4">
+            <div class="benefit-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="40" viewBox="0 0 34 40" class="svg replaced-svg">
+                    <g id="s2" transform="translate(-7 -2)">
+                      <path id="Path_2982" data-name="Path 2982" d="M23.384,33H22.038a1.346,1.346,0,1,1-2.692,0H18a2.692,2.692,0,1,0,5.384,0Z" transform="translate(-3.505 -10.347)" fill="#00b4ff"></path>
+                      <path id="Path_2983" data-name="Path 2983" d="M37.493,24.184,33.52,23.127v-.789a5.977,5.977,0,0,0,3.4-5.357v-.665a.673.673,0,0,0,.68-.665v-2a6.8,6.8,0,0,0-13.6,0v2a.673.673,0,0,0,.68.665v.665a5.977,5.977,0,0,0,3.4,5.357v.789L24.1,24.185a4.873,4.873,0,0,0-.859.333,5.792,5.792,0,0,0,.074-.882V22.97A.673.673,0,0,0,24,22.3v-2a6.8,6.8,0,0,0-13.6,0v2a.673.673,0,0,0,.68.665v.665a5.977,5.977,0,0,0,3.4,5.357v.789L10.5,30.839A4.7,4.7,0,0,0,7,35.333V39.6a.673.673,0,0,0,.68.665H26.72a.673.673,0,0,0,.68-.665V35.333a4.512,4.512,0,0,0-.352-1.717H40.32a.673.673,0,0,0,.68-.665V28.679A4.7,4.7,0,0,0,37.493,24.184ZM25.36,13.654a5.441,5.441,0,0,1,10.88,0v1.3a3.375,3.375,0,0,1-2.56-1.807l-.232-.454a.679.679,0,0,0-.5-.359.689.689,0,0,0-.589.186l-1.128,1.1a4.782,4.782,0,0,1-3.365,1.364H25.36Zm.68,3.327v-.665h1.827a6.145,6.145,0,0,0,4.327-1.754l.476-.466a4.715,4.715,0,0,0,2.89,2.078v.807a4.761,4.761,0,0,1-9.52,0ZM32.4,24.13l-1.6,1.3-1.6-1.3a.653.653,0,0,0,.237-.5v-.82a6.068,6.068,0,0,0,2.72,0v.82A.653.653,0,0,0,32.4,24.13ZM11.76,20.308a5.441,5.441,0,0,1,10.88,0v1.3A3.375,3.375,0,0,1,20.08,19.8l-.232-.454a.679.679,0,0,0-.5-.359.689.689,0,0,0-.589.186l-1.128,1.1a4.782,4.782,0,0,1-3.365,1.364H11.76Zm.68,3.327V22.97h1.827a6.145,6.145,0,0,0,4.327-1.754l.476-.466a4.715,4.715,0,0,0,2.89,2.078v.807a4.761,4.761,0,0,1-9.52,0Zm8.166,4.973c0,.024-.006.047-.006.071v1.283l-.68-.181v-.789A6.078,6.078,0,0,0,20.606,28.608ZM18.8,30.784l-1.6,1.3-1.6-1.3a.652.652,0,0,0,.237-.5v-.82a6.068,6.068,0,0,0,2.72,0v.82a.653.653,0,0,0,.237.494Zm-5.677.738.952-.253,2.448,2v1.682h1.36V33.263l2.448-2,.952.253v1.154L17.2,36.666l-4.08-3.992Zm12.92,7.418H8.36V35.333a3.355,3.355,0,0,1,2.5-3.211l.9-.236v1.065a.658.658,0,0,0,.2.47l4.76,4.658a.691.691,0,0,0,.962,0l4.76-4.658a.658.658,0,0,0,.2-.47V31.886l.894.238a3.357,3.357,0,0,1,2.506,3.209Zm13.6-6.654H26.214a4.764,4.764,0,0,0-2.321-1.447l-1.933-.514V28.679a3.355,3.355,0,0,1,2.5-3.211l3.208-.854,2.693,2.2a.692.692,0,0,0,.87,0l2.693-2.2,3.206.853a3.357,3.357,0,0,1,2.506,3.211Z" transform="translate(0 -1.635)" fill="#00b4ff"></path>
+                      <path id="Path_2984" data-name="Path 2984" d="M37.676,49.2l-2.692,2.692.952.952L37.478,51.3V56.4H22v1.346H38.151a.673.673,0,0,0,.673-.673V51.3l1.543,1.543.952-.952L38.627,49.2A.673.673,0,0,0,37.676,49.2Z" transform="translate(-4.554 -15.749)" fill="#00b4ff"></path>
+                      <path id="Path_2985" data-name="Path 2985" d="M20.518,10.749a.691.691,0,0,0,.484-.2L23.744,7.86l-.969-.952L21.2,8.451V3.346h15.76V2H20.518a.679.679,0,0,0-.685.673V8.451L18.262,6.908l-.969.952,2.741,2.692A.692.692,0,0,0,20.518,10.749Z" transform="translate(-3.366)" fill="#00b4ff"></path>
+                    </g>
+                  </svg>
+            </div>
+            <div class="benefit-box-text">
+                <h1 class="title">Project reviews</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, sapiente.</p>
+            </div> 
         </div>
 
     </div>
     
-
-</div>
-
-    
+</div> 
     
     <!-- course benefit: end -->
     
     <!-- prices: start -->
 
-
-    <div class="container ">
+    <div class="prices container ">
         <div class="row"> 
             <h1>Pricing</h1>
         </div>
 
         <div class=" row"> 
-            <div class="pricing-box col-4 ml-1">content
-                <h1>777</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, soluta!</p>
+            <div class="pricing-box col-5">
+                <h2><span>$175</span>Monthly</h2>
+                <p>Life can be unpredictable. Get maximum flexibility to learn at your own pace.</p>
                 <ul>
                     <li>Monthly Subscription</li>
                     <li>Access only 1 item</li>
                     <li>Join with community</li>
                     <li>One to one mentorship</li>
                 </ul>
-                <a href="#">enroll now</a>
+                <button class="btn price-btn-1">enroll now</button>
             
             </div>
-            <div class="pricing-box col-4 ml-1">content
-                <h1>333</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, officiis.</p>
+            <div class="pricing-box col-5">
+                <h2><span>$870</span>Yearly</h2>
+                <p>Paid yearly and get 15% discount. Get maximum flexibility to learn at your pace.</p>
                 <ul>
                     <li>Monthly Subscription</li>
                     <li>Access only 1 item</li>
                     <li>Join with community</li>
                     <li>One to one mentorship</li>
                 </ul>
-                <a href="#">enroll now</a>
+                <button class="btn price-btn-2">enroll now</button>
             </div>
         </div>
-
     </div>
-
 
     <!-- prices: end -->
     
     <!-- students review: start -->
     <section class="container">
-        <div class="row">
-            <h1 class="col-12">Student Reviews</h1>  
+        <div class="row ">
+            <div class="col-12 col-md-6">
+                <h1 class="">Student Reviews</h1>
+            </div>
+            <div class="benefit-btn hidden visible-md">
+                <button class="butn">
+                    <a href="#" class="stil fa fa-angle-left"></a>
+                </button>
+            <button class="butn">
+                    <a href="#" class="stil fa fa-angle-right"></a>
+                </button>
+            </div>
+        </div>
         </div>
         <div class="row">
-            <div class="stud-review col-6">
+            <div class="stud-review col-12 col-md-6">
                 <div class="studens-profile">
                     <img src="./img/students-reviews/doj.png" alt="logo">
                     <div class="name-review">
@@ -368,7 +496,7 @@
                 </div>
                 <p class="students-review">The course has been really helpful. I have been able to understand the fundamentals ofUI Design. The importance of wireframing, prototyping, colours and how to study other site wireframing and to implement them into my UI/UX Creative process.</p>
             </div>
-            <div class=" stud-review col-6">
+            <div class=" stud-review hidden col-md-6 visible-md">
                 <div class="studens-profile">
                     <img src="./img/students-reviews/sara.png" alt="logo">
                     <div class="name-review">
@@ -386,7 +514,7 @@
             </div>
 
         </div>
-        <div class="row rating">
+        <div class="row rating ">
             <div class="av">
                 <h1 class="view-number">4.84/5</h1>
                 <p class="count-name">Average Ratings</p>
@@ -418,6 +546,45 @@
     <!-- email form: end -->
     
     <!-- instructor: start -->
+    <section class="container">
+        <div class="row">
+            <h1 class="course-headline">Course Instructor</h1>  
+        </div>
+        <div class="row instructor-flex">
+            <div class="stud-review col-12 col-md-6">
+                <div class="instructor-profile">
+                    <img class="instructor-img" src="./img/course-instructor/dede.png" alt="logo">
+                    <div class="name-review">
+                        <h3 class="instruct-name">Sarah Taylor</h3>
+                        <span class="instructor-educ">UX Consultant & Expertise</span>
+                        <ul class="skils">
+                            <li class="list-icon"> <img src="./img/course-instructor/medal.png" alt="medal"> <span class="li-span"> Top Instructor in Skillshare</span></li>
+                            <li class="list-icon"> <img src="./img/course-instructor/book.png" alt=""> <span class="li-span">30K+ Students</span></li>
+                            <li class="list-icon"> <img src="./img/course-instructor/dekstop.png" alt=""> <span class="li-span">10 total courses</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="students-review">The course has been really helpful. I have been able to understand the fundamentals ofUI Design. The importance of wireframing, prototyping, colours and how to study other site wireframing and to implement them into my UI/UX Creative process.</p>
+            </div>
+            <div class=" stud-review col-12 col-md-6">
+                <div class="instructor-profile">
+                    <img class="instructor-img" src="./img/course-instructor/dede2.png" alt="logo">
+                    <div class="name-review">
+                        <h3 class="instruct-name">Ran Segall</h3>
+                        <span class="instructor-educ">UX Consultant & Expertise</span>
+                        <ul class="skils">
+                            <li class="list-icon"> <img src="./img/course-instructor/medal.png" alt="medal"> <span class="li-span"> Top Instructor in Skillshare</span></li>
+                            <li class="list-icon"> <img src="./img/course-instructor/book.png" alt=""> <span class="li-span">30K+ Students</span></li>
+                            <li class="list-icon"> <img src="./img/course-instructor/dekstop.png" alt=""> <span class="li-span">10 total courses</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="students-review">The course has been really helpful. I have been able to understand the fundamentals ofUI Design. The importance of wireframing, prototyping, colours and how to study other site wireframing and to implement them into my UI/UX Creative process.</p>
+            </div>
+
+        </div>
+       
+    </section>
     <!-- instructor: end -->
 
     <!-- footer: start -->
