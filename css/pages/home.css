@@ -126,6 +126,9 @@
 
 /* heros: start */
 
+.banner {
+  margin-top: 40px;
+}
 .left {
   display: block;
   text-align: left;
@@ -169,7 +172,7 @@
 }
 .image-hero-circle {
   position: absolute;
-  right: -70px;
+  right: 40px;
   bottom: -70px;
   z-index: -1;
 }
@@ -677,7 +680,6 @@
   position: relative;
 }
 
-}
 
 @media (min-width: 530px) {
   .email-box {

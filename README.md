@@ -76,7 +76,7 @@ Marius: https://github.com/MariusKuria;
 Valerijus: ;
 Dina: https://github.com/dinako81;
 Mindaugas: ;
-Evaldas: ;
+Evaldas: https://github.com/EBliujus ;
 
 ## ⚠️ License
 
