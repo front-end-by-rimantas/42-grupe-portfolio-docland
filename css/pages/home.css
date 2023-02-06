@@ -126,13 +126,55 @@
 
 /* heros: start */
 
-.container>.row>.col-6> {
-  float: left;
-  text-align: center;
+.banner {
+  margin-top: 40px;
 }
-
-.container>.row>.col-6> {
-  float: right;
+.left {
+  display: block;
+  text-align: left;
+}
+.rate-count {
+  font-size: 20px;
+  line-height: 1.78;
+  color: #707070;
+}
+.hero-h1 {
+  color: #292929;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.17em;
+  margin-bottom: 0;
+}
+.person {
+  color: #5DD9C1;
+  font-weight: 600;
+}
+.hero-content {
+  color: #5c6b56;
+  font-size: 25px;
+  margin-bottom: 34px;
+  font-weight: 300;
+  max-width: 560px;
+}
+.right {
+  position: relative;
+}
+.image-hero {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+.image-hero-left {
+  position: absolute;
+  left: -75px;
+  top: -60px;
+  z-index: -1;
+}
+.image-hero-circle {
+  position: absolute;
+  right: 40px;
+  bottom: -70px;
+  z-index: -1;
 }
 
 /* heros: end */
@@ -638,7 +680,6 @@
   position: relative;
 }
 
-}
 
 @media (min-width: 530px) {
   .email-box {
