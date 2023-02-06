@@ -555,6 +555,9 @@
   font-size: 16px;
   height: 400px;
 }
+.pricing-box > p {
+   max-width: 320px;
+} 
 .price-f {
   font-size: 60px;
 }
@@ -586,7 +589,14 @@
   background: #FBC006;
   color: #fff;
 }
-
+.list-check li:after {
+  position: absolute;
+  font-family: FontAwesome;
+  content: "";
+  line-height: inherit;
+  left: 0;
+  top: -2px;
+}
 
 /* prices: end */
 
