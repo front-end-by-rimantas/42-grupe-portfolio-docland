@@ -607,8 +607,27 @@
     </section>
     <!-- instructor: end -->
 
+    <!-- back to top: start -->
+    <div class="scrollTop fa fa-angle-up " onclick="scrollToTop();"></div>
+    
+    <!-- back to top: end -->
+
+
     <!-- footer: start -->
     <!-- footer: end -->
+
+    <script type="text/javascript" >
+        window.addEventListener('scroll', function(){
+            let scroll = document.querySelector('.scrollTop');
+            scroll.classList.toggle("active" , window.scrollY > 500)
+        })
+
+        function scrollToTop (){
+            window.scrollTo({
+                top: 0
+            })
+        }
+    </script>
 </body>
 
 </html>
