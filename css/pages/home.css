@@ -589,14 +589,14 @@
   background: #FBC006;
   color: #fff;
 }
-.list-check li:after {
+/* .list-check li:after {
   position: absolute;
   font-family: FontAwesome;
   content: "";
   line-height: inherit;
   left: 0;
   top: -2px;
-}
+} */
 
 /* prices: end */
 
