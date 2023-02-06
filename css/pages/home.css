@@ -815,4 +815,44 @@
 /* instructor: end */
 
 /* footer: start */
+
+
+.footer-logo {
+  margin-bottom: 30px;
+  max-width: 100%; 
+  height: auto;
+  vertical-align: middle;
+}
+.docland > p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  max-width: 380px;
+  font-weight: 300;
+}
+
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-linkedin {
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 5px;
+  font-size: 18px;
+  color: #000;
+  background-color: #F9F9F9;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover
+{
+  background-color: #5DD9C1;
+  color: #fff ;
+}
 /* footer: end */
