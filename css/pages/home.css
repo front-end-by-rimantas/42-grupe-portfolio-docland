@@ -400,32 +400,43 @@
 
 /* course benefit: start */
 
+.container-benefit {
+  display: flex;
+  margin: 30px;
+  gap: 50px;
+  flex-direction: column;
+}
+
 .main-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 60px;
+  font-size: 25px;
 }
 
 .benefit-box {
 
-  width: 360px;
+  width: 340px;
   height: 130px;
   display: flex;
   gap: 20px;
   padding: 20px;
   border-radius: 25px;
   border: 1px solid #D7EFF9;
-  background: linear-gradient(to right, #D7EFF9 0%, #D7EFF9 25%, #fff 25%, #fff 100%);
+  background: linear-gradient(to right, #D7EFF9 0%, #D7EFF9 20%, #fff 20%, #fff 100%);
 }
 
 .no2 {
-  background: linear-gradient(to right, #E9E6FF 0%, #E9E6FF 25%, #fff 25%, #fff 100%);
+  background: linear-gradient(to right, #E9E6FF 0%, #E9E6FF 20%, #fff 20%, #fff 100%);
 }
 
 .no3 {
-  background: linear-gradient(to right, #FFF6DB 0%, #FFF6DB 25%, #fff 25%, #fff 100%);
+  background: linear-gradient(to right, #FFF6DB 0%, #FFF6DB 20%, #fff 20%, #fff 100%);
 }
 
 .no4 {
-  background: linear-gradient(to right, #E6FFFA 0%, #E6FFFA 25%, #fff 25%, #fff 100%);
+  background: linear-gradient(to right, #E6FFFA 0%, #E6FFFA 20%, #fff 20%, #fff 100%);
 }
 
 .benefit-svg {
@@ -451,10 +462,7 @@
 
 }
 
-.benefit-btn {
-  float: right;
-  margin-right: 20px;
-}
+.benefit-btn {}
 
 .stil {
   text-decoration: none;
@@ -466,7 +474,7 @@
 }
 
 .butn {
-  margin-right: 20px;
+
   font-family: 'Hind', sans-serif;
   background: #C9FFF5;
   padding: 10px 20px;
@@ -481,8 +489,34 @@
   user-select: none;
   text-align: center;
   text-transform: capitalize;
-  margin-top: 20px;
+
 }
+
+.bandymas-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  justify-items: center;
+}
+
+@media (min-width: 700px) {
+  .bandymas-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1150px) {
+  .bandymas-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1500px) {
+  .bandymas-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 
 /* course benefit: end */
 
