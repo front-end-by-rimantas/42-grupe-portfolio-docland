@@ -104,7 +104,7 @@
   width: 30px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1290px) {
   .long-nav {
     visibility: hidden;
   }
@@ -135,11 +135,13 @@
 .rate {
   margin-top: 70px;
 }
+
 .rate-count {
   font-size: 20px;
   line-height: 1.78;
   color: #707070;
 }
+
 .hero-h1 {
   color: #292929;
   font-size: 50px;
@@ -151,12 +153,14 @@
   color: #5c6b56;
   font-size: 20px;
 }
+
 .person {
   color: #5DD9C1;
   font-size: 20px;
   font-weight: 600;
   padding: 15px 0px;
 }
+
 .hero-content {
   color: #5c6b56;
   font-size: 25px;
@@ -175,20 +179,24 @@
   text-transform: capitalize;
   font-family: 'Hind', sans-serif;
 }
+
 .right {
   position: relative;
 }
+
 .image-hero {
   position: relative;
   max-width: 100%;
   height: auto;
 }
+
 .image-hero-left {
   position: absolute;
   left: -75px;
   top: -60px;
   z-index: -1;
 }
+
 .image-hero-circle {
   position: absolute;
   right: 40px;
@@ -414,38 +422,52 @@
 
 /* course benefit: start */
 
+.container {
+  padding-top: 0px;
+}
+
+.container-benefit {
+  display: flex;
+  margin: 30px;
+  gap: 50px;
+  flex-direction: column;
+}
+
 .main-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 60px;
+  font-size: 25px;
 }
 
 .benefit-box {
-
-  width: 360px;
+  width: 340px;
   height: 130px;
   display: flex;
   gap: 20px;
   padding: 20px;
   border-radius: 25px;
   border: 1px solid #D7EFF9;
-  background: linear-gradient(to right, #D7EFF9 0%, #D7EFF9 25%, #fff 25%, #fff 100%);
+  background: linear-gradient(to right, #D7EFF9 0%, #D7EFF9 23%, #fff 23%, #fff 100%);
 }
 
 .no2 {
-  background: linear-gradient(to right, #E9E6FF 0%, #E9E6FF 25%, #fff 25%, #fff 100%);
+  background: linear-gradient(to right, #E9E6FF 0%, #E9E6FF 23%, #fff 23%, #fff 100%);
 }
 
 .no3 {
-  background: linear-gradient(to right, #FFF6DB 0%, #FFF6DB 25%, #fff 25%, #fff 100%);
+  background: linear-gradient(to right, #FFF6DB 0%, #FFF6DB 23%, #fff 23%, #fff 100%);
 }
 
 .no4 {
-  background: linear-gradient(to right, #E6FFFA 0%, #E6FFFA 25%, #fff 25%, #fff 100%);
+  background: linear-gradient(to right, #E6FFFA 0%, #E6FFFA 23%, #fff 23%, #fff 100%);
 }
 
 .benefit-svg {
   display: flex;
+  align-content: center;
   align-items: center;
-
 }
 
 .benefit-box-text {
@@ -462,12 +484,6 @@
 
 .title {
   font-size: 19px;
-
-}
-
-.benefit-btn {
-  float: right;
-  margin-right: 20px;
 }
 
 .stil {
@@ -480,13 +496,11 @@
 }
 
 .butn {
-  margin-right: 20px;
   font-family: 'Hind', sans-serif;
   background: #C9FFF5;
   padding: 10px 20px;
   border: 1px solid transparent;
   text-decoration: none;
-
   font-size: 18px;
   font-weight: 500;
   line-height: 1em;
@@ -495,7 +509,31 @@
   user-select: none;
   text-align: center;
   text-transform: capitalize;
-  margin-top: 20px;
+}
+
+.bandymas-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  justify-items: center;
+}
+
+@media (min-width: 770px) {
+  .bandymas-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1150px) {
+  .bandymas-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1500px) {
+  .bandymas-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 
 /* course benefit: end */
