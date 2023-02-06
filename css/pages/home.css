@@ -263,6 +263,16 @@
 
 /* course: start */
 
+/* to components */
+
+.section-title {
+  color: #292929;
+  font-size: 40px;
+  line-height: 1.35;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
 .course {
   position: relative;
 }
@@ -313,7 +323,7 @@
   height: 50px;
   width: 50px;
   padding: 0;
-  top: 50px;
+  top: 0;
   right: 100px;
 }
 .course-btn-2 {
@@ -321,7 +331,7 @@
   height: 50px;
   width: 50px;
   padding: 0;
-  top: 50px;
+  top: 0;
   right: 30px;
 }
 
