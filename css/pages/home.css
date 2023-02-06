@@ -416,7 +416,6 @@
 }
 
 .benefit-box {
-
   width: 340px;
   height: 130px;
   display: flex;
@@ -445,7 +444,6 @@
   justify-content: center;
   align-content: center;
   align-items: center;
-
 }
 
 .benefit-box-text {
@@ -462,10 +460,7 @@
 
 .title {
   font-size: 19px;
-
 }
-
-/* .benefit-btn {} */
 
 .stil {
   text-decoration: none;
@@ -482,7 +477,6 @@
   padding: 10px 20px;
   border: 1px solid transparent;
   text-decoration: none;
-
   font-size: 18px;
   font-weight: 500;
   line-height: 1em;
@@ -517,7 +511,6 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-
 
 /* course benefit: end */
 
