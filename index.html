@@ -180,7 +180,7 @@
                 <h1>Course Syllabus</h1>
                 <a class="btn syllabusbtn" href="#">Download Syllabus</a>
                 </div>
-            <div class="row coursebox">
+            <div class="row coursebox col-12 col-md-6">
                 <div class="weeknumber">
                         <svg class="weekimg" xmlns="http://www.w3.org/2000/svg" id="calendar" width="30" height="30" viewBox="0 0 30 30" class="svg replaced-svg">
                                 <path id="Path_3001" data-name="Path 3001" d="M25.313,2.344H23.789V1.172a1.172,1.172,0,0,0-2.344,0V2.344H16.113V1.172a1.172,1.172,0,1,0-2.344,0V2.344H8.5V1.172a1.172,1.172,0,1,0-2.344,0V2.344H4.688A4.693,4.693,0,0,0,0,7.031V25.313A4.693,4.693,0,0,0,4.688,30h8.965a1.172,1.172,0,1,0,0-2.344H4.688a2.346,2.346,0,0,1-2.344-2.344V7.031A2.346,2.346,0,0,1,4.688,4.688H6.152V5.859a1.172,1.172,0,1,0,2.344,0V4.688H13.77V5.859a1.172,1.172,0,1,0,2.344,0V4.688h5.332V5.859a1.172,1.172,0,0,0,2.344,0V4.688h1.523a2.346,2.346,0,0,1,2.344,2.344v6.68a1.172,1.172,0,1,0,2.344,0V7.031A4.693,4.693,0,0,0,25.313,2.344Z" fill="#fbc006"></path>
@@ -412,7 +412,7 @@
                         </div>
                     </div>
             
-                    <div class="col-3 benefit-box no4">
+                    <div class="col-3 benefit-box no4 ">
                         <div class="benefit-svg">
                             <svg xmlns="http://www.w3.org/2000/svg" width="44" height="40" viewBox="0 0 44 40" class="svg replaced-svg">
                                 <g id="s1" transform="translate(0 -0.501)">
@@ -455,9 +455,12 @@
         </div>
 
         <div class=" row"> 
-            <div class="pricing-box col-5">
-                <h2><span>$175</span>Monthly</h2>
-                <p>Life can be unpredictable. Get maximum flexibility to learn at your own pace.</p>
+            <div class="pricing-box col-md-6 col-xl-4 ml-xl-2">
+                <span class="pricing-head">
+                    <span class="price-f" ><strong>$175</strong></span>
+                    <span class="pricing-period">Monthly</span>  
+                    <p>Life can be unpredictable. Get maximum flexibility to learn at your own pace.</p>
+                </span>
                 <ul>
                     <li>Monthly Subscription</li>
                     <li>Access only 1 item</li>
@@ -465,18 +468,24 @@
                     <li>One to one mentorship</li>
                 </ul>
                 <button class="btn price-btn-1">enroll now</button>
-            
             </div>
-            <div class="pricing-box col-5">
-                <h2><span>$870</span>Yearly</h2>
-                <p>Paid yearly and get 15% discount. Get maximum flexibility to learn at your pace.</p>
-                <ul>
-                    <li>Monthly Subscription</li>
-                    <li>Access only 1 item</li>
-                    <li>Join with community</li>
-                    <li>One to one mentorship</li>
-                </ul>
-                <button class="btn price-btn-2">enroll now</button>
+
+            <div class="pricing-box col-md-6 col-xl-4 ml-xl-0">
+                <span class="pricing-head pricing-inline">
+                   <span class="price-f "<strong>$870</strong></span> 
+                    <span>
+                        <span class="del"><del>$999</del></span> 
+                        <span class="pricing-period">Yearly</span> 
+                        <p>Paid yearly and get 15% discount. Get maximum flexibility to learn at your pace.</p>
+                    </span>   
+                </span>                          
+                    <ul>
+                        <li>Monthly Subscription</li>
+                        <li>Access only 1 item</li>
+                        <li>Join with community</li>
+                        <li>One to one mentorship</li>
+                    </ul>
+                    <button class="btn price-btn-2">enroll now</button>
             </div>
         </div>
     </div>
@@ -485,19 +494,20 @@
     
     <!-- students review: start -->
     <section class="container">
-        <div class="row ">
-            <div class="col-12 col-md-6">
-                <h1 class="">Student Reviews</h1>
+        <div class=" row main-title-row">
+            <div class="main-title col-6">
+                <h1 class="">Student review</h1>
             </div>
-            <div class="benefit-btn hidden visible-md">
+    
+            <div class="benefit-btn float-r col-6">
                 <button class="butn">
                     <a href="#" class="stil fa fa-angle-left"></a>
                 </button>
-            <button class="butn">
+    
+                <button class="butn">
                     <a href="#" class="stil fa fa-angle-right"></a>
                 </button>
             </div>
-        </div>
         </div>
         <div class="row">
             <div class="stud-review col-12 col-md-6">
@@ -520,7 +530,7 @@
                 <div class="studens-profile">
                     <img src="./img/students-reviews/sara.png" alt="logo">
                     <div class="name-review">
-                        <div class="rate" >
+                        <div class="rate-review" >
                             <i class="fa fa-star" ></i>
                             <i class="fa fa-star" ></i>
                             <i class="fa fa-star" ></i>
@@ -614,6 +624,42 @@
 
 
     <!-- footer: start -->
+    <div class="footer container ">
+        <div class="row">
+        <div class="docland col-12 col-sm-10 col-md-5 col-lg-4" >
+            <img src="./img/Footer-logo/footer-logo.png" alt="DOCLand" class="footer-logo">
+            <p class="texts" >Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est. Sed ut euismod quam. Suspendisse potenti. Aliquam fringilla orci tincidunt sit amet est.</p>
+                 <div >
+            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                 </div>
+        </div>
+        <div class="features col-12 col-sm-10 col-md-5 col-lg-2" >
+            <h3>Features</h3>
+            <a href="#" target="_blank" class="toMeniu" >Timeline Review</a>
+            <a href="#" target="_blank" class="toMeniu" >Custom Fields</a>
+            <a href="#" target="_blank" class="toMeniu" >Custom Templates</a>
+            <a href="#" target="_blank" class="toMeniu" >Task Dependencies</a>
+        </div>
+        <div class="company col-12 col-sm-10 col-md-5 col-lg-2" >
+            <h3>Company</h3>
+            <a href="#" target="_blank" class="toMeniu" >About Us</a>
+            <a href="#" target="_blank" class="toMeniu" >Pricing Plan</a>
+            <a href="#" target="_blank" class="toMeniu" >Privacy & Policy</a>
+            <a href="#" target="_blank" class="toMeniu" >Latest News</a>
+        </div>
+        <div class="newsletter col-12 col-sm-10 col-md-5 col-lg-4" >
+            <h3>Subscribe Newsletter</h3>
+            <p class="texts" >Aenean non accumsan ante. Duis et risus accumsan sem tempus porta nec sit amet est.</p>
+            <form>
+                <input id="email" type="text" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        </div>
+    </div>
     <!-- footer: end -->
 
     <script type="text/javascript" >

@@ -132,6 +132,7 @@
   text-align: left;
   margin: 100px;
 }
+
 .rate {
   margin-top: 70px;
 }
@@ -149,6 +150,7 @@
   line-height: 1.17em;
   padding: 15px 0px;
 }
+
 .word {
   color: #5c6b56;
   font-size: 20px;
@@ -169,9 +171,11 @@
   max-width: 560px;
   padding: 15px 0px;
 }
+
 .left .btn {
   margin: 0px 26px 0px 0px;
 }
+
 .btn-line {
   color: #292929;
   font-size: 18px;
@@ -520,28 +524,85 @@
   text-transform: capitalize;
 }
 
+
 .bandymas-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
   justify-items: center;
+  margin-bottom: -350px;
+}
+
+.benefit-btn {
+  visibility: hidden;
+}
+
+.no2 {
+  visibility: hidden;
+}
+
+.no3 {
+  visibility: hidden;
+}
+
+.no4 {
+  visibility: hidden;
 }
 
 @media (min-width: 770px) {
   .bandymas-grid {
     grid-template-columns: 1fr 1fr;
+    margin-bottom: -80px;
+  }
+
+  .benefit-btn {
+    visibility: hidden;
+  }
+
+  .no2 {
+    visibility: visible;
+  }
+
+  .no3 {
+    visibility: hidden;
+  }
+
+  .no4 {
+    visibility: hidden;
   }
 }
 
 @media (min-width: 1150px) {
   .bandymas-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: -40px;
+  }
+
+  .benefit-btn {
+    visibility: visible;
+  }
+
+  .no3 {
+    visibility: visible;
+  }
+
+  .no4 {
+    visibility: hidden;
   }
 }
 
 @media (min-width: 1500px) {
   .bandymas-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 100px;
+  }
+
+  .benefit-btn {
+    visibility: visible;
+  }
+
+  .no4 {
+    visibility: visible;
   }
 }
 
@@ -552,7 +613,6 @@
 .prices * h1 {
   text-align: center;
 }
-
 .pricing-box {
   font-family: 'Hind', sans-serif;
   padding: 30px 30px 40px;
@@ -563,35 +623,50 @@
   box-shadow: 0px 8px 16px #9d9c9c;
   line-height: 1.78;
   font-size: 16px;
+  height: 400px;
 }
-
-.prices * span {
+.pricing-box > p {
+   max-width: 320px;
+} 
+.price-f {
   font-size: 60px;
+}
+.pricing-period {
+  font-size: 18px;
+}
+.pricing-box .del {
+  font-size: 24px;
+}
+.pricing-inline {
   display: inline;
 }
-
+.pricing-block {
+  display: block;
+}
 .pricing-box:nth-of-type(1) {
   background-color: #fff;
   color: #000;
-
 }
-
 .pricing-box:nth-of-type(2) {
   background-color: #5DD9C1;
   color: #fff;
 }
-
 .price-btn-2 {
   background: #fff;
   color: #5DD9C1;
 }
-
 .price-btn-2:hover {
   background: #FBC006;
   color: #fff;
 }
-
-
+/* .list-check li:after {
+  position: absolute;
+  font-family: FontAwesome;
+  content: "";
+  line-height: inherit;
+  left: 0;
+  top: -2px;
+} */
 
 /* prices: end */
 
@@ -677,7 +752,6 @@
 
 .link-reviews {
   font-size: 18px;
-
   padding: 15px 35px;
   text-decoration: none;
   color: #fff;
@@ -685,6 +759,11 @@
   border-radius: 5px;
 }
 
+.float-r {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
 /* students review: end */
 
 /* email form: start */
@@ -881,15 +960,79 @@
   opacity: 0;
   transition: 0.4s;
 }
+
 .scrollTop.active {
   bottom: 10%;
   visibility: visible;
   opacity: 1;
 }
+
 .scrollTop.active:hover {
   opacity: 0.7;
 }
+
 /* back to top: end */
 
 /* footer: start */
+
+
+.footer-logo {
+  margin-bottom: 30px;
+  max-width: 100%; 
+  height: auto;
+  vertical-align: middle;
+}
+.texts {
+  font-size: 16px;
+  margin-bottom: 30px;
+  max-width: 380px;
+  font-weight: 300;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-linkedin {
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 5px;
+  font-size: 18px;
+  color: #000;
+  background-color: #F9F9F9;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover {
+  background-color: #5DD9C1;
+  color: #fff ;
+}
+h3 {
+  font-size: 26px;
+  color: #292929;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.features,
+.company {
+  display: flex;
+  flex-direction: column;
+}
+.toMeniu {
+  color: #707070;
+  font-size: 16px;
+  padding: 0px 0px 10px;
+  text-decoration: none;
+}
+.toMeniu:hover {
+  transition: 0.5s linear;
+  padding-left: 5px;
+  color: #5DD9C1;
+  animation: alternate;
+}
 /* footer: end */
