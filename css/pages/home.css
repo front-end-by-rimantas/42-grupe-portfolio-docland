@@ -132,6 +132,7 @@
   text-align: left;
   margin: 100px;
 }
+
 .rate {
   margin-top: 70px;
 }
@@ -149,6 +150,7 @@
   line-height: 1.17em;
   padding: 15px 0px;
 }
+
 .word {
   color: #5c6b56;
   font-size: 20px;
@@ -169,9 +171,11 @@
   max-width: 560px;
   padding: 15px 0px;
 }
+
 .left .btn {
   margin: 0px 26px 0px 0px;
 }
+
 .btn-line {
   color: #292929;
   font-size: 18px;
