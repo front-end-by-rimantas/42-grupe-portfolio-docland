@@ -905,13 +905,12 @@
   height: auto;
   vertical-align: middle;
 }
-.docland > p {
+.texts {
   font-size: 16px;
   margin-bottom: 30px;
   max-width: 380px;
   font-weight: 300;
 }
-
 
 .fa-facebook,
 .fa-twitter,
@@ -932,9 +931,31 @@
 .fa-facebook:hover,
 .fa-twitter:hover,
 .fa-instagram:hover,
-.fa-linkedin:hover
-{
+.fa-linkedin:hover {
   background-color: #5DD9C1;
   color: #fff ;
+}
+h3 {
+  font-size: 26px;
+  color: #292929;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.features,
+.company {
+  display: flex;
+  flex-direction: column;
+}
+.toMeniu {
+  color: #707070;
+  font-size: 16px;
+  padding: 0px 0px 10px;
+  text-decoration: none;
+}
+.toMeniu:hover {
+  transition: 0.5s linear;
+  padding-left: 5px;
+  color: #5DD9C1;
+  animation: alternate;
 }
 /* footer: end */
