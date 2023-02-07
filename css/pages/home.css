@@ -275,17 +275,24 @@
 
 .course {
   position: relative;
+  margin: 0;
 }
 .carousel-elmt {
+  display: flex;
+  flex-direction: column;
   margin-top: 30px;
   margin-bottom: 0px;
   text-align: center;
   padding: 40px 0px;
   border-radius: 20px;
-  /* float: left; */
+  margin-left: 0px;
+  margin-right: 0px;
+  
 }
 .elmt-img {
   width: 80%;
+  align-content: center;
+  
 }
 .elmt-text {
   font-family: 'Hind', sans-serif;
@@ -294,12 +301,13 @@
   font-weight: 600;
   text-decoration: none;
   line-height: 3em;
+  
 }
 .carousel-elmt:hover {
   box-shadow: cadetblue;
 }
 .carousel-elmt:nth-of-type(1) {
-  background: #85CFFF;
+  background: #85CFFF; 
 }
 .carousel-elmt:nth-of-type(2) {
   background: #BF87FF;
