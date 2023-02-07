@@ -515,28 +515,85 @@
   text-transform: capitalize;
 }
 
+
 .bandymas-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
   justify-items: center;
+  margin-bottom: -350px;
+}
+
+.benefit-btn {
+  visibility: hidden;
+}
+
+.no2 {
+  visibility: hidden;
+}
+
+.no3 {
+  visibility: hidden;
+}
+
+.no4 {
+  visibility: hidden;
 }
 
 @media (min-width: 770px) {
   .bandymas-grid {
     grid-template-columns: 1fr 1fr;
+    margin-bottom: -80px;
+  }
+
+  .benefit-btn {
+    visibility: hidden;
+  }
+
+  .no2 {
+    visibility: visible;
+  }
+
+  .no3 {
+    visibility: hidden;
+  }
+
+  .no4 {
+    visibility: hidden;
   }
 }
 
 @media (min-width: 1150px) {
   .bandymas-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: -40px;
+  }
+
+  .benefit-btn {
+    visibility: visible;
+  }
+
+  .no3 {
+    visibility: visible;
+  }
+
+  .no4 {
+    visibility: hidden;
   }
 }
 
 @media (min-width: 1500px) {
   .bandymas-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 100px;
+  }
+
+  .benefit-btn {
+    visibility: visible;
+  }
+
+  .no4 {
+    visibility: visible;
   }
 }
 
@@ -876,14 +933,17 @@
   opacity: 0;
   transition: 0.4s;
 }
+
 .scrollTop.active {
   bottom: 10%;
   visibility: visible;
   opacity: 1;
 }
+
 .scrollTop.active:hover {
   opacity: 0.7;
 }
+
 /* back to top: end */
 
 /* footer: start */
