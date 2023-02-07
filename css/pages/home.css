@@ -634,6 +634,9 @@
 .price-f {
   font-size: 60px;
 }
+.f-1 {
+  color: #5DD9C1;
+}
 .pricing-period {
   font-size: 18px;
 }
@@ -658,18 +661,18 @@
   background: #fff;
   color: #5DD9C1;
 }
+.list-2 > i {
+  color: #fff;
+}
 .price-btn-2:hover {
   background: #FBC006;
   color: #fff;
 }
-/* .list-check li:after {
-  position: absolute;
-  font-family: FontAwesome;
-  content: "";
-  line-height: inherit;
-  left: 0;
-  top: -2px;
-} */
+
+div ul li {
+  list-style-type: none;
+}
+
 
 /* prices: end */
 
