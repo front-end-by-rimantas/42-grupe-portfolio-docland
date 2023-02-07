@@ -283,16 +283,14 @@
   margin-top: 30px;
   margin-bottom: 0px;
   text-align: center;
+  align-items: center;
   padding: 40px 0px;
   border-radius: 20px;
   margin-left: 0px;
   margin-right: 0px;
-  
 }
 .elmt-img {
   width: 80%;
-  align-content: center;
-  
 }
 .elmt-text {
   font-family: 'Hind', sans-serif;
@@ -300,8 +298,7 @@
   font-size: 24px;
   font-weight: 600;
   text-decoration: none;
-  line-height: 3em;
-  
+  line-height: 3em;  
 }
 .carousel-elmt:hover {
   box-shadow: cadetblue;
