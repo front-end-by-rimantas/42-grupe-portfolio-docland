@@ -866,5 +866,35 @@
 
 /* instructor: end */
 
+/* back to top: start */
+.scrollTop {
+  position: fixed;
+  bottom: 800px;
+  right: 4%;
+  width: 35px;
+  height: 35px;
+  background: #fcbf21;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 35px;
+  border-radius: 50%;
+  background-size: 40px;
+  cursor: pointer;
+  z-index: 9999;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s;
+}
+.scrollTop.active {
+  bottom: 10%;
+  visibility: visible;
+  opacity: 1;
+}
+.scrollTop.active:hover {
+  opacity: 0.7;
+}
+/* back to top: end */
+
 /* footer: start */
 /* footer: end */
