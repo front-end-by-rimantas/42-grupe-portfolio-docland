@@ -75,7 +75,7 @@ There is no tests for this project.
 Marius: https://github.com/MariusKuria; 
 Valerijus: ;
 Dina: https://github.com/dinako81;
-Mindaugas: ;
+Mindaugas: https://github.com/MindPaul ;
 Evaldas: https://github.com/EBliujus ;
 
 ## ⚠️ License
