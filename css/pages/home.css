@@ -661,7 +661,7 @@
   background: #fff;
   color: #5DD9C1;
 }
-.list-2 > i {
+.list-2 > ul li i {
   color: #fff;
 }
 .price-btn-2:hover {
