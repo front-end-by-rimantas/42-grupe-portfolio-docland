@@ -8,7 +8,6 @@
 @import '../3rd-party/font-awesome.min.css';
 
 /* components */
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Montserrat:wght@200&display=swap');
 @import '../components/clock.css';
 @import '../components/button.css';
 
@@ -206,6 +205,10 @@
   right: 40px;
   bottom: -70px;
   z-index: -1;
+  vertical-align: middle;
+  height: auto;
+  max-width: 100%;
+  border-style: none;
 }
 
 /* heros: end */
@@ -975,7 +978,28 @@
 
 /* footer: start */
 
-
+.footer{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Ubuntu', sans-serif;
+}
+@media (min-width:768px) {
+      .footer{
+        grid-template-columns: 1fr 1fr;
+      }
+}
+@media (min-width:992px) {
+  .footer{
+    grid-template-columns: 28% 13% 15% 27%;
+    gap: 30px;
+  }
+}
+.docland {
+  max-width: 380px;
+}
 .footer-logo {
   margin-bottom: 30px;
   max-width: 100%; 
@@ -983,10 +1007,12 @@
   vertical-align: middle;
 }
 .texts {
+  color: #707070;
   font-size: 16px;
   margin-bottom: 30px;
   max-width: 380px;
   font-weight: 300;
+  line-height: 2em;
 }
 
 .fa-facebook,
@@ -1012,7 +1038,7 @@
   background-color: #5DD9C1;
   color: #fff ;
 }
-h3 {
+.footer h3 {
   font-size: 26px;
   color: #292929;
   font-weight: 700;
@@ -1025,14 +1051,14 @@ h3 {
 }
 .toMeniu {
   color: #707070;
-  font-size: 16px;
+  font-weight: 300;
   padding: 0px 0px 10px;
   text-decoration: none;
+  line-height: 1.9em;
 }
 .toMeniu:hover {
-  transition: 0.5s linear;
+  transition: 0.3s linear;
   padding-left: 5px;
   color: #5DD9C1;
-  animation: alternate;
 }
 /* footer: end */
