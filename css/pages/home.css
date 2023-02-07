@@ -682,7 +682,6 @@
 
 .link-reviews {
   font-size: 18px;
-
   padding: 15px 35px;
   text-decoration: none;
   color: #fff;
@@ -690,6 +689,11 @@
   border-radius: 5px;
 }
 
+.float-r {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
 /* students review: end */
 
 /* email form: start */
