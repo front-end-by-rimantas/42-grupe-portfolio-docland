@@ -282,6 +282,7 @@
   position: relative;
   margin: 0;
 }
+
 .carousel-elmt {
   margin-top: 30px;
   margin-bottom: 0px;
@@ -294,40 +295,50 @@
   display: flex;
   flex-direction: column;
 }
+
 .elmt-img {
   width: 80%;
 }
+
 .elmt-text {
   font-family: 'Hind', sans-serif;
   color: #fff;
   font-size: 24px;
   font-weight: 600;
   text-decoration: none;
-  line-height: 3em;  
+  line-height: 3em;
 }
+
 .carousel-elmt:hover {
   box-shadow: cadetblue;
 }
+
 .carousel-elmt:nth-of-type(1) {
-  background: #85CFFF; 
+  background: #85CFFF;
 }
+
 .carousel-elmt:nth-of-type(2) {
   background: #BF87FF;
 }
+
 .carousel-elmt:nth-of-type(3) {
   background: #FFCB87;
 }
+
 .carousel-elmt:nth-of-type(4) {
   background: #929DFF;
 }
+
 .course * .btn {
   background: #C9FFF5;
   text-decoration: none;
 }
+
 .btn>.fa {
   color: #5DD9C1;
   text-decoration: none;
 }
+
 .course-btn-1 {
   position: absolute;
   height: 50px;
@@ -336,6 +347,7 @@
   top: 0;
   right: 100px;
 }
+
 .course-btn-2 {
   position: absolute;
   height: 50px;
@@ -642,60 +654,76 @@
 .prices * h1 {
   text-align: center;
 }
+
 .pricing-box {
   font-family: 'Hind', sans-serif;
-  height: 420px;
   padding: 30px 30px 40px;
-  margin-top: 30px;
-  margin-bottom: 30px;
   border-radius: 20px;
   box-shadow: #5c6b56;
+  margin-top: 30px;
   box-sizing: border-box;
   box-shadow: 0px 8px 16px #9d9c9c;
   line-height: 1.78;
   font-size: 16px;
-  }
+  height: 400px;
+}
 
-.pricing-box > p {
+.pricing-box>p {
   max-width: 320px;
 }
+
 .price-f {
   font-size: 60px;
 }
+
 .f-1 {
   color: #5DD9C1;
 }
+
+.pricing-period {
+  font-size: 18px;
+}
+
 .pricing-box .del {
   font-size: 24px;
 }
+
 .pricing-inline {
   display: inline;
 }
+
 .pricing-block {
   display: block;
 }
+
 .pricing-box:nth-of-type(1) {
   background-color: #fff;
   color: #000;
 }
+
 .pricing-box:nth-of-type(2) {
   background-color: #5DD9C1;
   color: #fff;
 }
+
 .price-btn-2 {
   background: #fff;
   color: #5DD9C1;
 }
-.check-2 {
+
+.list-2>ul li i {
   color: #fff;
 }
+
 .price-btn-2:hover {
   background: #FBC006;
   color: #fff;
 }
-div > ul > li {
+
+div ul li {
   list-style-type: none;
 }
+
 
 /* prices: end */
 
