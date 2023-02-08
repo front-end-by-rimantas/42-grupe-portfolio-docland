@@ -73,7 +73,7 @@ There is no tests for this project.
 ## 🎅 Authors
 
 Marius: https://github.com/MariusKuria; 
-Valerijus: ;
+Valerijus: https://github.com/valerij79;
 Dina: https://github.com/dinako81;
 Mindaugas: https://github.com/MindPaul ;
 Evaldas: https://github.com/EBliujus ;
