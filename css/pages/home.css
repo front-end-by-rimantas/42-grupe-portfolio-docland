@@ -678,7 +678,7 @@
   box-shadow: 0px 8px 16px #9d9c9c;
   line-height: 1.78;
   font-size: 16px;
-  height: 400px;
+  height: 438px;
 }
 
 .pricing-box>p {
@@ -724,7 +724,7 @@
   color: #5DD9C1;
 }
 
-.list-2>ul li i {
+.check-2 {
   color: #fff;
 }
 
@@ -733,10 +733,27 @@
   color: #fff;
 }
 
-div ul li {
+div > ul > li {
   list-style-type: none;
 }
 
+@media (min-width: 379px) {
+  .pricing-box {
+  height: 430px;
+}
+}
+
+@media (min-width: 379px) {
+  .pricing-box {
+  height: 430px;
+}
+}
+
+@media (min-width: 360px) {
+  .pricing-box {
+  height: 470px;
+}
+}
 
 /* prices: end */
 
