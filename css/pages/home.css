@@ -270,8 +270,6 @@
 
 /* course: start */
 
-/* to components */
-
 .section-title {
   color: #292929;
   font-size: 40px;
@@ -285,8 +283,6 @@
   margin: 0;
 }
 .carousel-elmt {
-  display: flex;
-  flex-direction: column;
   margin-top: 30px;
   margin-bottom: 0px;
   text-align: center;
@@ -295,6 +291,8 @@
   border-radius: 20px;
   margin-left: 0px;
   margin-right: 0px;
+  display: flex;
+  flex-direction: column;
 }
 .elmt-img {
   width: 80%;
@@ -657,6 +655,9 @@
 .price-f {
   font-size: 60px;
 }
+.f-1 {
+  color: #5DD9C1;
+}
 .pricing-period {
   font-size: 18px;
 }
@@ -681,18 +682,18 @@
   background: #fff;
   color: #5DD9C1;
 }
+.list-2 > ul li i {
+  color: #fff;
+}
 .price-btn-2:hover {
   background: #FBC006;
   color: #fff;
 }
-/* .list-check li:after {
-  position: absolute;
-  font-family: FontAwesome;
-  content: "";
-  line-height: inherit;
-  left: 0;
-  top: -2px;
-} */
+
+div ul li {
+  list-style-type: none;
+}
+
 
 /* prices: end */
 
