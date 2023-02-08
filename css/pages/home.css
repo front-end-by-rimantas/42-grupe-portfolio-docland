@@ -357,20 +357,35 @@
   align-items: center;
   margin-bottom: 20px;
   padding: 50px;
+
   color: #343a40;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+  color: #292929;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   font-size: 26px;
+}
+.syll {
+  color: #292929;
 }
 
 .coursebox {
-  display: flex;
-  padding: 30px 0 20px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 10px;
   border-radius: 20px;
   margin-bottom: 50px;
   background-color: #fff;
   box-shadow: #c9fff5;
-}
-
+  margin-left: 10px;
+  }
+@media (min-width: 576px) {
+    .coursebox {
+      display: flex;
+    }
+  }
 .weeknumber {
   display: flex;
   flex-direction: column;
@@ -378,6 +393,7 @@
   width: 15%;
   vertical-align: middle;
   margin-left: 30px;
+ 
 }
 
 .weekimg {
@@ -393,6 +409,7 @@
   padding-top: 20px;
   padding-bottom: 30px;
   font-weight: 600;
+  margin-left: 20px;
 }
 
 .weekparagraph {
@@ -409,11 +426,13 @@
   color: #5C6B56;
   font-size: 20px;
   margin-right: 20px;
+  margin-left: 20px;
   line-height: 1.7em;
   font-weight: 300;
 }
 
 .span {
+  margin-left: 20px;
   font-size: 18px;
   line-height: 20px;
   color: #343a40;
@@ -422,12 +441,21 @@
   margin-right: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   vertical-align: top;
+  display: inline-block;
 }
 
 .syllabusbtn {
   text-align: right;
-  display: flex;
-
+  display: inline-block;
+  border: 1px solid #20c997;
+  
+  text-transform: capitalize;
+  color: #343a40;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.syllabusbtn:hover {
+  color: #fff
 }
 
 
@@ -980,13 +1008,14 @@ div > ul > li {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
-  font-size: 16px;
-  font-weight: 300;
+  justify-items: left;
   font-family: 'Ubuntu', sans-serif;
 }
 @media (min-width:768px) {
       .footer{
+        display: grid;
         grid-template-columns: 1fr 1fr;
+        justify-items: left;
       }
 }
 @media (min-width:992px) {
@@ -1036,11 +1065,12 @@ div > ul > li {
   background-color: #5DD9C1;
   color: #fff ;
 }
-.footer h3 {
+.headline {
   font-size: 26px;
-  color: #292929;
   font-weight: 700;
+  color: #292929;
   margin-bottom: 24px;
+  font-family: Hind,sans-serif;
 }
 .features,
 .company {
@@ -1055,7 +1085,7 @@ div > ul > li {
   line-height: 1.9em;
 }
 .toMeniu:hover {
-  transition: 0.3s linear;
+  transition: 0.3s all;
   padding-left: 5px;
   color: #5DD9C1;
 }
