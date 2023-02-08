@@ -678,7 +678,7 @@
   box-shadow: 0px 8px 16px #9d9c9c;
   line-height: 1.78;
   font-size: 16px;
-  height: 400px;
+  height: 438px;
 }
 
 .pricing-box>p {
@@ -737,6 +737,23 @@ div > ul > li {
   list-style-type: none;
 }
 
+@media (min-width: 379px) {
+  .pricing-box {
+  height: 430px;
+}
+}
+
+@media (min-width: 379px) {
+  .pricing-box {
+  height: 430px;
+}
+}
+
+@media (min-width: 360px) {
+  .pricing-box {
+  height: 470px;
+}
+}
 
 /* prices: end */
 
