@@ -16,7 +16,27 @@
 /* header: start */
 
 .container-header {
+  margin: 0;
   padding: 0;
+}
+
+.header-logo {
+  padding: 40px 40px 40px 0;
+  margin-left: 30px;
+}
+
+.header-menu {
+  display: inline-block;
+  width: 80%;
+  text-align: right;
+  font-size: 22px;
+  font-weight: 500;
+  justify-items: center;
+}
+
+.container-header {
+  padding: 0;
+  margin: 0;
 }
 
 .row-header {
@@ -28,44 +48,33 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.header-menu {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-}
-
 .header-login-btn {
   font-size: 15px;
-  text-decoration: none;
+  color: #FBC117;
+}
+
+.header-menu>a {
+  margin-left: 30px;
+  vertical-align: 0;
 }
 
 .header-join-btn {
-  display: flex;
-  justify-items: center;
+  display: inline-block;
   align-items: center;
   width: 130px;
   height: 40px;
   font-size: 15px;
   text-align: center;
-  justify-content: center;
   color: white;
   padding: 16px 16px 16px 16px;
   border-radius: 5px;
   background-color: #5DD9C1;
+  padding-top: 10px;
 }
 
 .header-join-btn:hover {
   background-color: #FBC117;
   transition: 0.5s;
-}
-
-/* Juostele po Login vvvvvvv  */
-.login-underline::after {
-  display: block;
-  background-color: #FBC117;
-  content: '';
-  width: 100%;
-  height: 1px;
 }
 
 /* Menu hamburgeris vvvvvvvv */
@@ -104,7 +113,7 @@
 }
 
 @media (max-width: 1290px) {
-  .long-nav {
+  .header-menu {
     visibility: hidden;
   }
 
@@ -282,6 +291,7 @@
   position: relative;
   margin: 0;
 }
+
 .carousel-elmt {
   margin-top: 30px;
   margin-bottom: 0px;
@@ -294,40 +304,50 @@
   display: flex;
   flex-direction: column;
 }
+
 .elmt-img {
   width: 80%;
 }
+
 .elmt-text {
   font-family: 'Hind', sans-serif;
   color: #fff;
   font-size: 24px;
   font-weight: 600;
   text-decoration: none;
-  line-height: 3em;  
+  line-height: 3em;
 }
+
 .carousel-elmt:hover {
   box-shadow: cadetblue;
 }
+
 .carousel-elmt:nth-of-type(1) {
-  background: #85CFFF; 
+  background: #85CFFF;
 }
+
 .carousel-elmt:nth-of-type(2) {
   background: #BF87FF;
 }
+
 .carousel-elmt:nth-of-type(3) {
   background: #FFCB87;
 }
+
 .carousel-elmt:nth-of-type(4) {
   background: #929DFF;
 }
+
 .course * .btn {
   background: #C9FFF5;
   text-decoration: none;
 }
+
 .btn>.fa {
   color: #5DD9C1;
   text-decoration: none;
 }
+
 .course-btn-1 {
   position: absolute;
   height: 50px;
@@ -336,6 +356,7 @@
   top: 0;
   right: 100px;
 }
+
 .course-btn-2 {
   position: absolute;
   height: 50px;
@@ -359,13 +380,14 @@
   padding: 50px;
 
   color: #343a40;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   color: #292929;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   font-size: 26px;
 }
+
 .syll {
   color: #292929;
 }
@@ -380,12 +402,14 @@
   background-color: #fff;
   box-shadow: #c9fff5;
   margin-left: 10px;
-  }
+}
+
 @media (min-width: 576px) {
-    .coursebox {
-      display: flex;
-    }
+  .coursebox {
+    display: flex;
   }
+}
+
 .weeknumber {
   display: flex;
   flex-direction: column;
@@ -393,7 +417,7 @@
   width: 15%;
   vertical-align: middle;
   margin-left: 30px;
- 
+
 }
 
 .weekimg {
@@ -448,12 +472,13 @@
   text-align: right;
   display: inline-block;
   border: 1px solid #20c997;
-  
+
   text-transform: capitalize;
   color: #343a40;
   background-color: transparent;
   transition: 0.5s;
 }
+
 .syllabusbtn:hover {
   color: #fff
 }
@@ -642,6 +667,7 @@
 .prices * h1 {
   text-align: center;
 }
+
 .pricing-box {
   font-family: 'Hind', sans-serif;
   padding: 30px 30px 40px;
@@ -652,53 +678,82 @@
   box-shadow: 0px 8px 16px #9d9c9c;
   line-height: 1.78;
   font-size: 16px;
-  height: 400px;
+  height: 438px;
 }
-.pricing-box > p {
-   max-width: 320px;
-} 
+
+.pricing-box>p {
+  max-width: 320px;
+}
+
 .price-f {
   font-size: 60px;
 }
+
 .f-1 {
   color: #5DD9C1;
 }
+
 .pricing-period {
   font-size: 18px;
 }
+
 .pricing-box .del {
   font-size: 24px;
 }
+
 .pricing-inline {
   display: inline;
 }
+
 .pricing-block {
   display: block;
 }
+
 .pricing-box:nth-of-type(1) {
   background-color: #fff;
   color: #000;
 }
+
 .pricing-box:nth-of-type(2) {
   background-color: #5DD9C1;
   color: #fff;
 }
+
 .price-btn-2 {
   background: #fff;
   color: #5DD9C1;
 }
-.list-2 > ul li i {
+
+.check-2 {
   color: #fff;
 }
+
 .price-btn-2:hover {
   background: #FBC006;
   color: #fff;
 }
 
-div ul li {
+div > ul > li {
   list-style-type: none;
 }
 
+@media (min-width: 379px) {
+  .pricing-box {
+  height: 430px;
+}
+}
+
+@media (min-width: 379px) {
+  .pricing-box {
+  height: 430px;
+}
+}
+
+@media (min-width: 360px) {
+  .pricing-box {
+  height: 470px;
+}
+}
 
 /* prices: end */
 
@@ -796,6 +851,7 @@ div ul li {
   justify-content: flex-end;
   gap: 5px;
 }
+
 /* students review: end */
 
 /* email form: start */
@@ -1007,35 +1063,40 @@ div ul li {
 
 /* footer: start */
 
-.footer{
+.footer {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
   justify-items: left;
   font-family: 'Ubuntu', sans-serif;
 }
+
 @media (min-width:768px) {
-      .footer{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-items: left;
-      }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: left;
+  }
 }
+
 @media (min-width:992px) {
-  .footer{
+  .footer {
     grid-template-columns: 28% 13% 15% 27%;
     gap: 30px;
   }
 }
+
 .docland {
   max-width: 380px;
 }
+
 .footer-logo {
   margin-bottom: 30px;
-  max-width: 100%; 
+  max-width: 100%;
   height: auto;
   vertical-align: middle;
 }
+
 .texts {
   color: #707070;
   font-size: 16px;
@@ -1061,25 +1122,29 @@ div ul li {
   text-decoration: none;
   border-radius: 50%;
 }
+
 .fa-facebook:hover,
 .fa-twitter:hover,
 .fa-instagram:hover,
 .fa-linkedin:hover {
   background-color: #5DD9C1;
-  color: #fff ;
+  color: #fff;
 }
+
 .headline {
   font-size: 26px;
   font-weight: 700;
   color: #292929;
   margin-bottom: 24px;
-  font-family: Hind,sans-serif;
+  font-family: Hind, sans-serif;
 }
+
 .features,
 .company {
   display: flex;
   flex-direction: column;
 }
+
 .toMeniu {
   color: #707070;
   font-weight: 300;
@@ -1087,9 +1152,11 @@ div ul li {
   text-decoration: none;
   line-height: 1.9em;
 }
+
 .toMeniu:hover {
   transition: 0.3s all;
   padding-left: 5px;
   color: #5DD9C1;
 }
+
 /* footer: end */
