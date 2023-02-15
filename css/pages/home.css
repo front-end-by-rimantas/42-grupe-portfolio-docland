@@ -1158,5 +1158,53 @@ div > ul > li {
   padding-left: 5px;
   color: #5DD9C1;
 }
-
+.emailas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.subscribe {
+  width: 40%;
+  display: flex;
+  padding: 15px 30px;
+  background-color: #FBC006;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #FBC006;
+  border-radius: 2.5em;
+  height: 100%;
+  font-weight: 600;
+  font-family: Hind,sans-serif;
+  font-size: 18px;
+}
+.subscribe:hover {
+  color: #000;
+}
+.form ::placeholder {
+  background-color: #20c997;
+  justify-content: center;
+  align-items: center;
+}
+.form > input {
+  border: 1px solid #20c997;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  line-height: 18px;
+  text-decoration: none;
+}
+.form{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #20c997;
+  border: 1px solid #fff;
+  padding: 0px 150px 0px -10px;
+  align-items: center;
+  border-radius: 2em;
+}
 /* footer: end */
